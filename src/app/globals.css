@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* New "Earthen Luxury" light tokens */
+  --paper: #F5EFE6;
+  --paper-2: #F4E9D8;
+  --paper-3: #EDE5D5;
+  --ink: #2C2C2C;
+  --ink-strong: #1E293B;
+  --ink-deep: #0F172A;
+  --muted: #334155;
+  --stone: #94A3B8;
+  --signal: #C00000;
+  --signal-deep: #9A0000;
+  --hairline: rgba(28, 28, 28, 0.12);
+}
+
+@theme inline {
+  /* New token color utilities */
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-paper-3: var(--paper-3);
+  --color-ink: var(--ink);
+  --color-ink-strong: var(--ink-strong);
+  --color-ink-deep: var(--ink-deep);
+  --color-muted: var(--muted);
+  --color-stone: var(--stone);
+  --color-signal: var(--signal);
+  --color-signal-deep: var(--signal-deep);
+  --color-hairline: var(--hairline);
+
+  /* Font family tokens */
+  --font-heading: var(--font-jakarta);
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-lora);
+  --font-ui: var(--font-inter);
+  --font-sans: var(--font-ui);
+
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  --animate-blink-cursor: blink-cursor 1.2s step-end infinite;
+  @keyframes marquee {
+  from {
+    transform: translateX(0);
+    }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+    }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes blink-cursor {
+  0%, 49% {
+    opacity: 1;
+    }
+  50%, 100% {
+    opacity: 0;
+    }
+  }
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+  font-family: var(--font-heading);
+}
+
+h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+.u-eyebrow {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}

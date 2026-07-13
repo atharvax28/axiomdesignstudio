@@ -1,0 +1,2596 @@
+[
+  {
+    "url": "/projects/project-1/photo-1.jpg",
+    "altText": "Modern corporate reception area with Mahindra Finance logo, featuring a red stone reception desk and glass doors leading to workstations.",
+    "description": "A sleek and modern corporate reception area. The space features a prominent red stone reception desk, a neutral color palette with grey flooring, and glass doors that provide a glimpse into the open office area.",
+    "tags": [
+      "Reception",
+      "Entrance",
+      "Branding",
+      "Glass Partitions",
+      "Modern"
+    ],
+    "materials": [
+      "Stone",
+      "Glass",
+      "Grey Floor Tiles",
+      "Acoustic Ceiling Tiles"
+    ],
+    "lighting": [
+      "Recessed Lighting",
+      "Pendant Light"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-1/photo-2.jpeg",
+    "altText": "Corporate waiting lounge area with four red tub chairs, round coffee tables, and a screen displaying financial charts.",
+    "description": "A comfortable waiting or informal meeting lounge featuring vibrant red tub chairs arranged around small coffee tables. The space includes a digital display showing financial data and a red fabric pinboard.",
+    "tags": [
+      "Lounge",
+      "Waiting Area",
+      "Informal Meeting",
+      "Seating"
+    ],
+    "materials": [
+      "Fabric Upholstery",
+      "Grey Floor Tiles",
+      "Acoustic Ceiling Tiles"
+    ],
+    "lighting": [
+      "Recessed Lighting"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-1/photo-3.png",
+    "altText": "Open plan office workstation area with red, grey, and white privacy screens and patterned red acoustic ceiling panels.",
+    "description": "An open-plan office layout designed for collaboration and focus. The space is highlighted by unique red acoustic ceiling baffles and workstations with red, grey, and white privacy screens.",
+    "tags": [
+      "Open Office",
+      "Workstations",
+      "Cubicles",
+      "Acoustic Solutions"
+    ],
+    "materials": [
+      "Carpet Tiles",
+      "Fabric Screens",
+      "Acoustic Ceiling Baffles"
+    ],
+    "lighting": [
+      "Linear LED Lighting"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-1/photo-4.png",
+    "altText": "Corporate open office environment showing employees walking through workstations with striking red acoustic ceiling features.",
+    "description": "A dynamic view of the open office environment, showcasing the striking red acoustic ceiling baffles that add a bold design element while improving acoustics. The workstations feature neutral grey and white tones with red accents.",
+    "tags": [
+      "Open Office",
+      "Workstations",
+      "Acoustic Solutions",
+      "Corridor"
+    ],
+    "materials": [
+      "Carpet Tiles",
+      "Fabric Screens",
+      "Acoustic Ceiling Baffles",
+      "Grey Floor Tiles"
+    ],
+    "lighting": [
+      "Linear LED Lighting",
+      "Recessed Lighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-1/photo-5.jpeg",
+    "altText": "Large formal conference room with a long light-wood table, black ergonomic chairs, and a red patterned acoustic ceiling.",
+    "description": "A large, formal conference room designed for executive meetings. The room features a long light-wood conference table, black ergonomic chairs, and a distinctive red acoustic ceiling structure. A red accent wall with traditional motifs adds cultural context.",
+    "tags": [
+      "Conference Room",
+      "Meeting Room",
+      "Boardroom",
+      "Acoustic Solutions"
+    ],
+    "materials": [
+      "Carpet Tiles",
+      "Wood Veneer",
+      "Acoustic Ceiling Panels",
+      "Fabric Wall Covering"
+    ],
+    "lighting": [
+      "Large Circular Pendants",
+      "Recessed Lighting",
+      "Linear LED Lighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-1/photo-6.jpeg",
+    "altText": "Executive boardroom showing a presentation screen displaying financial charts, with a large wood table and red acoustic ceiling.",
+    "description": "Another angle of the executive boardroom, focusing on the presentation area with a large screen displaying financial charts. The striking red acoustic ceiling and patterned red accent wall create a strong visual identity.",
+    "tags": [
+      "Conference Room",
+      "Meeting Room",
+      "Boardroom",
+      "Presentation"
+    ],
+    "materials": [
+      "Carpet Tiles",
+      "Wood Veneer",
+      "Acoustic Ceiling Panels",
+      "Fabric Wall Covering"
+    ],
+    "lighting": [
+      "Large Circular Pendants",
+      "Recessed Lighting"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-1/photo-7.png",
+    "altText": "Corporate pantry and cafeteria area featuring a red exposed ceiling, wicker pendant lights, and blue chairs at white tables.",
+    "description": "A vibrant and casual corporate pantry area. The design incorporates a red painted exposed ceiling, natural wicker pendant lights, and contrasting light blue seating. A digital menu board is mounted on the wall.",
+    "tags": [
+      "Pantry",
+      "Cafeteria",
+      "Breakout Area",
+      "Dining"
+    ],
+    "materials": [
+      "Wood-look Flooring",
+      "Wicker",
+      "Plastic Seating",
+      "Painted Exposed Ceiling"
+    ],
+    "lighting": [
+      "Wicker Pendant Lights",
+      "Natural Light"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-1/photo-8.jpeg",
+    "altText": "Small meeting room with a light wood table, black mesh chairs, and a patterned red accent wall.",
+    "description": "A smaller, focused meeting room featuring a light wood table and black ergonomic chairs. The room is anchored by a red accent wall with subtle traditional patterns and a modern white acoustic ceiling feature.",
+    "tags": [
+      "Meeting Room",
+      "Huddle Room",
+      "Conference Room"
+    ],
+    "materials": [
+      "Carpet Tiles",
+      "Wood Veneer",
+      "Fabric Wall Covering",
+      "Acoustic Ceiling Baffles"
+    ],
+    "lighting": [
+      "Suspended Linear/Curved LED"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "altText": "An expansive corporate elevator lobby and reception area, featuring pristine polished white marble walls and flooring with subtle veining. The space transitions into a modern reception desk in high-gloss white, flanked by a plush deep blue velvet armchair and a small side table positioned beneath a large window offering city views, all unified under a striking dark gray linear slat ceiling with integrated illumination.",
+    "description": "This corporate reception and elevator lobby for Jio Finance establishes a sophisticated and welcoming ambiance, masterfully blending luxurious finishes with contemporary design. The luminous polished white marble creates a pristine, expansive feel, harmoniously contrasted by warm light oak wood paneling and a visually dynamic dark gray linear slat ceiling. A vibrant deep blue velvet armchair serves as a focal point, offering an inviting waiting area against the backdrop of natural light and panoramic urban vistas.",
+    "tags": [
+      "Corporate Reception",
+      "Elevator Lobby",
+      "Modern Professional",
+      "Luxury Finishes",
+      "Slat Ceiling",
+      "Panoramic View"
+    ],
+    "materials": [
+      "Polished White Marble",
+      "Light Oak Wood Veneer",
+      "Dark Gray Acoustic Slats",
+      "Deep Blue Velvet"
+    ],
+    "lighting": [
+      "Integrated Linear LED",
+      "Natural Daylight"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-2/photo-1.jpeg"
+  },
+  {
+    "altText": "A dynamic corporate collaborative workspace featuring a curvilinear slatted warm wood ceiling accent with two prominent lime-green cone pendant lights. The space is furnished with flexible white-top meeting tables and ergonomic charcoal mesh chairs in the foreground, leading to a curvilinear tiered bench seating area upholstered in vibrant blue fabric, backed by an integrated planter box and an abstract landscape mural, all set upon a striking grey carpet with lime-green linear accents.",
+    "description": "This vibrant and adaptable collaborative zone is meticulously designed to foster innovation and connection within the corporate environment. Curvilinear forms in the ceiling and seating create a fluid, inviting atmosphere, while a blend of natural light and strategically placed fixtures ensures a well-illuminated setting. Biophilic elements, bespoke lighting, and an engaging abstract mural work in harmony to cultivate an energetic yet serene space that supports diverse work styles and group interactions.",
+    "tags": [
+      "Collaborative Workspace",
+      "Modern Office Design",
+      "Biophilic Design",
+      "Dynamic Interiors",
+      "Activity-Based Working",
+      "Flexible Furniture"
+    ],
+    "materials": [
+      "Slatted Wood Veneer",
+      "Patterned Carpet Tile",
+      "Upholstered Fabric (Vibrant Blue)",
+      "White Laminate",
+      "Ergonomic Mesh",
+      "Painted Drywall"
+    ],
+    "lighting": [
+      "Recessed Downlights",
+      "Linear Panel Lighting",
+      "Decorative Pendant Lighting",
+      "Natural Daylight"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-2/photo-2.png"
+  },
+  {
+    "altText": "An open-plan corporate office featuring flexible workstations defined by vibrant ochre yellow privacy screens, positioned opposite a relaxed lounge area with a navy blue sectional sofa and complementary ochre armchairs. The space includes a glass-enclosed private focus pod and is adorned with a dynamic sound wave-inspired wall graphic, all anchored by a textured grey carpet with chartreuse linear accents.",
+    "description": "This dynamic corporate interior skillfully integrates focused individual workspaces with inviting collaborative and relaxation zones. The design employs a spirited palette of ochre yellow and navy blue against a sophisticated neutral backdrop, highlighted by a striking digital-inspired wall graphic and a warm wood-slatted ceiling detail. The atmosphere is crafted to foster both productivity and informal interaction, providing diverse functional areas within a cohesive open environment.",
+    "tags": [
+      "Open Office Design",
+      "Activity-Based Work",
+      "Collaborative Zones",
+      "Acoustic Privacy Solutions",
+      "Vibrant Workplace",
+      "Modern Corporate Interior"
+    ],
+    "materials": [
+      "Upholstered Acoustic Panels",
+      "Patterned Broadloom Carpet",
+      "Wood Veneer Ceiling Slats",
+      "Glass Partitions",
+      "Upholstered Seating",
+      "Powder-Coated Steel"
+    ],
+    "lighting": [
+      "Recessed LED Downlights",
+      "Ambient Lighting"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-2/photo-3.jpeg"
+  },
+  {
+    "altText": "An executive office showcases a striking architectural blue millwork unit set against warm wood veneer wall paneling, with a blonde wood executive desk and three charcoal mesh task chairs arranged for collaboration. Expansive windows on the right provide city views and natural light, complemented by ceiling cove lighting, integrated shelf lighting, and a contemporary linear pendant.",
+    "description": "This executive office masterfully blends refined aesthetics with practical functionality, cultivating a sophisticated yet inviting atmosphere for high-level work. The custom architectural blue millwork, dramatically illuminated, serves as a focal point against the rich warmth of the wood-clad environment. Abundant natural light pours in through the panoramic windows, thoughtfully connecting the interior to the dynamic Mumbai skyline.",
+    "tags": [
+      "Executive Office",
+      "Architectural Millwork",
+      "Corporate Interior",
+      "Contemporary Design",
+      "Panoramic Views",
+      "Built-in Shelving"
+    ],
+    "materials": [
+      "Warm Wood Veneer",
+      "Blonde Wood Laminate",
+      "Architectural Blue Lacquer",
+      "Charcoal Mesh",
+      "Clear Glass",
+      "Polished Chrome"
+    ],
+    "lighting": [
+      "Cove Lighting",
+      "Linear Pendant",
+      "Integrated LED Strip Lighting",
+      "Natural Daylight"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-2/photo-4.jpeg"
+  },
+  {
+    "altText": "A contemporary corporate meeting room features light oak flooring, a circular meeting table with ergonomic mesh chairs in the foreground, and a wall-mounted display above a floating pale taupe media console. The space is illuminated by perimeter cove lighting, recessed downlights, and abundant natural light from expansive windows that flank a custom deep indigo shelving unit set against a warm wood-paneled wall.",
+    "description": "Designed for both focused work and collaborative discussions, this sophisticated corporate meeting room seamlessly blends functionality with a refined aesthetic. The space showcases a balanced material palette of warm wood, textured greige wall panels, and deep indigo accents, creating an inviting yet professional atmosphere. Thoughtful architectural lighting, including perimeter cove lights and integrated shelf illumination, enhances the visual depth and highlights key design elements.",
+    "tags": [
+      "Corporate Meeting Room",
+      "Modern Office Design",
+      "Custom Millwork",
+      "Integrated Technology",
+      "Daylight Integration",
+      "Contemporary Aesthetics"
+    ],
+    "materials": [
+      "Light Oak Flooring",
+      "Textured Greige Wall Paneling",
+      "Warm Wood Veneer",
+      "Matte Pale Taupe Laminate",
+      "Deep Indigo Lacquer"
+    ],
+    "lighting": [
+      "Perimeter Cove Lighting",
+      "Recessed LED Downlights",
+      "Linear Suspended Pendant",
+      "Integrated LED Strip Lighting",
+      "Natural Daylight"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-2/photo-5.png"
+  },
+  {
+    "altText": "A contemporary corporate reception and waiting lounge features a curved, warm wood-paneled reception desk with a backlit brand logo, complemented by a serene textured wall panel and comfortable seating. Recessed downlights, soft cove lighting, and a minimalist pendant illuminate the inviting space.",
+    "description": "This inviting reception and waiting area for Mahindra Finance in Jaipur blends modern aesthetics with functional design, fostering an approachable yet sophisticated ambiance. A bespoke fluted timber reception desk serves as a prominent focal point, harmonized by a warm palette of natural wood tones, muted textiles, and a subtly woven textured panel. Thoughtful lighting design emphasizes architectural details, ensuring a welcoming and professional experience for visitors.",
+    "tags": [
+      "Reception Area",
+      "Waiting Lounge",
+      "Corporate Design",
+      "Modern Contemporary",
+      "Fluted Paneling",
+      "Brand Integration"
+    ],
+    "materials": [
+      "Warm Wood Veneer",
+      "Textured Woven Panel",
+      "Light Porcelain Tile",
+      "Taupe Leatherette",
+      "Charcoal Laminate",
+      "Solid Surface"
+    ],
+    "lighting": [
+      "Recessed LED Downlights",
+      "Architectural Cove Lighting",
+      "Cylindrical Pendant Light",
+      "Backlit Signage"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-3/photo-1.jpeg"
+  },
+  {
+    "altText": "An expansive open-plan office space featuring rows of modern workstations with white cabinetry, terracotta acoustic panels, and dark gray ergonomic chairs on textured carpet tiles. Overhead, a sophisticated slatted ceiling with integrated linear LED lighting complements a textured feature wall adorned with a traditional geometric pattern in warm neutral tones.",
+    "description": "This open office environment blends contemporary functionality with subtle cultural references, creating an engaging and productive workspace. The design emphasizes natural textures and a curated warm-neutral palette, highlighted by a distinctive patterned wall treatment and sophisticated linear lighting. Thoughtful material selections and ergonomic furnishings contribute to a comfortable and aesthetically pleasing corporate atmosphere.",
+    "tags": [
+      "Open Office",
+      "Workstation Design",
+      "Acoustic Paneling",
+      "Integrated Lighting",
+      "Corporate Interiors",
+      "Patterned Wall"
+    ],
+    "materials": [
+      "Textured Wall Finish",
+      "Light Wood Laminate",
+      "Terracotta Fabric",
+      "Aluminum Ceiling Baffles",
+      "Carpet Tile",
+      "Porcelain Floor Tile"
+    ],
+    "lighting": [
+      "Integrated Linear LED",
+      "Recessed LED Downlight",
+      "Linear Wall Washer",
+      "Diffuse Ambient Lighting"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-3/photo-2.jpeg"
+  },
+  {
+    "altText": "An expansive open-plan corporate workspace features rows of modern workstations with grey fabric partitions and ergonomic chairs, organized under a sophisticated multi-layered ceiling. The ceiling showcases terracotta-hued bulkheads, perforated metal panels, and suspended acoustic baffles integrated with linear lighting, complemented by accent walls with intricate geometric patterns.",
+    "description": "This dynamic open-plan office environment at Mahindra Finance, Jaipur, seamlessly blends functional efficiency with a unique aesthetic. The design intent is evident in the striking ceiling treatment, which combines terracotta-hued elements with acoustic panels, creating a vibrant yet controlled atmosphere. Thoughtfully placed workstations and richly textured accent walls contribute to a modern, culturally inspired workspace designed for productivity and engagement.",
+    "tags": [
+      "Open-plan office",
+      "Corporate workspace",
+      "Acoustic design",
+      "Modular workstations",
+      "Patterned accent walls",
+      "Linear lighting"
+    ],
+    "materials": [
+      "Terracotta-hued paint",
+      "Perforated metal panels",
+      "Acoustic fabric panels",
+      "Melamine work surfaces",
+      "Textured wallcovering",
+      "Loop pile carpet"
+    ],
+    "lighting": [
+      "Linear suspended pendants",
+      "Recessed downlights",
+      "Integrated strip lighting",
+      "Surface-mounted cylinder lights"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-3/photo-3.jpeg"
+  },
+  {
+    "altText": "A detailed view of a contemporary open-plan office space featuring a dynamic multi-layered ceiling design and multiple workstations. The ceiling combines terracotta-toned panels, grey felt acoustic baffles with integrated linear lighting, and a striking curved white architectural element.",
+    "description": "This image captures a vibrant and highly functional open office environment, meticulously designed for modern productivity and employee well-being. The space is characterized by a sophisticated interplay of materials and a visually engaging ceiling architecture, which together create a stimulating yet balanced atmosphere while ensuring optimal acoustic comfort.",
+    "tags": [
+      "Open Office Area",
+      "Workstation Design",
+      "Acoustic Solutions",
+      "Integrated Lighting",
+      "Modern Workplace",
+      "Biophilic Design"
+    ],
+    "materials": [
+      "Felt Acoustic Panels",
+      "Terracotta Finish",
+      "Textured Carpet Tile",
+      "White Laminate",
+      "Warm Wood Tones",
+      "Patterned Wall Panels"
+    ],
+    "lighting": [
+      "Integrated Linear LED",
+      "Recessed Downlights",
+      "Suspended Acoustic Panel Lighting",
+      "Cove Lighting",
+      "Surface-mounted Pendant Lights"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-3/photo-4.jpeg"
+  },
+  {
+    "altText": "A long, modern corporate conference room featuring a large light wood laminate table with a matte black base, surrounded by ergonomic charcoal mesh task chairs. The space is illuminated by integrated linear LED ceiling lights, recessed downlights, and natural light from expansive windows overlooking a city skyline, complemented by a textured terracotta accent wall and patterned grey carpet.",
+    "description": "This sophisticated conference room is designed for collaboration and functionality, blending warm textural elements with a sleek, contemporary aesthetic. The prominent terracotta accent wall provides a vibrant focal point, while the integrated lighting and acoustic ceiling panels ensure an optimal environment for focused meetings.",
+    "tags": [
+      "Conference Room",
+      "Corporate Interiors",
+      "Modern Workspace",
+      "Collaborative Design",
+      "Acoustic Paneling",
+      "Accent Wall"
+    ],
+    "materials": [
+      "Light Wood Laminate",
+      "Textured Terracotta Wall Finish",
+      "Charcoal Mesh Upholstery",
+      "Patterned Carpet Tiles",
+      "Matte Black Powder-Coated Metal",
+      "Polished Chrome"
+    ],
+    "lighting": [
+      "Integrated Linear LED Strips",
+      "Recessed LED Downlights",
+      "Natural Window Light"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-3/photo-5.png"
+  },
+  {
+    "altText": "A modern corporate meeting room featuring a round light wood-tone table with four ergonomic grey mesh chairs, centered on patterned carpet tiles. An accent wall in terracotta with a traditional floral motif provides a striking contrast to the white brick-patterned wall opposite, which displays a large screen showing financial data under a multi-layered ceiling with perimeter cove lighting.",
+    "description": "This collaborative meeting room for Mahindra Finance in Jaipur thoughtfully integrates functional modern design with cultural nuances through its striking terracotta accent wall featuring a traditional Rajasthani motif. The space balances a focused work environment with a welcoming aesthetic, enhanced by a sophisticated lighting scheme and strategic material choices. It serves as an inspiring setting for discussions and presentations, reflecting both global professionalism and local heritage.",
+    "tags": [
+      "Corporate Interiors",
+      "Meeting Room Design",
+      "Acoustic Paneling",
+      "Cultural Integration",
+      "Modern Workspace",
+      "Collaborative Space"
+    ],
+    "materials": [
+      "Terracotta Acoustic Panel",
+      "White Brick-Patterned Wall Finish",
+      "Patterned Carpet Tiles",
+      "Light Wood Veneer",
+      "Grey Mesh Fabric",
+      "Matte Grey Metal"
+    ],
+    "lighting": [
+      "Perimeter Cove Lighting",
+      "Recessed LED Downlights"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-3/photo-6.jpeg"
+  },
+  {
+    "altText": "A vibrant open-plan office features rows of workstations with light wood-tone desks and mustard-yellow privacy screens, set against a backdrop of floor-to-ceiling windows revealing a cityscape. Overhead, striking blue acoustic ceiling panels with integrated linear lighting enhance the contemporary aesthetic, while a polished white marble-look floor defines the main pathway.",
+    "description": "This modern corporate workspace balances focused work areas with dynamic design elements to foster productivity and well-being. The striking acoustic ceiling panels and lively color accents inject energy into the expansive open-plan layout, complemented by abundant natural light and panoramic urban views. Thoughtfully designed workstations and collaborative zones create a versatile environment tailored for contemporary professional needs.",
+    "tags": [
+      "Open-plan Office",
+      "Contemporary Workplace",
+      "Acoustic Design",
+      "Ergonomic Furniture",
+      "Urban Views"
+    ],
+    "materials": [
+      "Marble-look Porcelain Tile",
+      "Carpet Tile",
+      "Acoustic Fabric Panels",
+      "Laminated Wood Veneer",
+      "Clear Glass Partitions",
+      "Powder-coated Metal"
+    ],
+    "lighting": [
+      "Recessed LED Downlights",
+      "Linear LED Pendants",
+      "Natural Daylight"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-4/photo-5.jpeg"
+  },
+  {
+    "altText": "A modern corporate reception and lounge area featuring a curved charcoal grey fluted reception desk against a white wall flanked by vertical light wood fluted panels, with the Mahindra Finance logo prominently displayed. To the right, a glass-enclosed meeting room with a striking terracotta red accent wall and a white table is visible, complemented by lounge seating in rose-toned upholstery and a sapphire blue sofa, all beneath a dynamic ceiling incorporating exposed concrete, black linear baffles, and diverse integrated and suspended lighting.",
+    "description": "This corporate reception and lounge area masterfully blends modern aesthetics with inviting functionality, creating a sophisticated first impression. The design intent emphasizes a vibrant yet professional atmosphere, highlighted by the strategic use of color through a striking terracotta accent wall within the glass-enclosed meeting room and the contemporary contrast of rose-toned and sapphire blue lounge seating. Dynamic ceiling treatments and layered illumination further enhance the spatial experience, offering both visual interest and practical lighting throughout.",
+    "tags": [
+      "Corporate Reception",
+      "Lounge Area",
+      "Modern Office Design",
+      "Glass Meeting Room",
+      "Dynamic Ceiling",
+      "Brand-Integrated Space"
+    ],
+    "materials": [
+      "Charcoal Fluted Paneling",
+      "White Solid Surface",
+      "Light Wood Fluting",
+      "Full-Height Clear Glass",
+      "Rose Upholstery Fabric",
+      "Porcelain Tile Flooring"
+    ],
+    "lighting": [
+      "Integrated Linear LED",
+      "Suspended Linear LED",
+      "Recessed Ceiling Downlights",
+      "Cylindrical Pendant Lights"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-5/photo-1.jpeg"
+  },
+  {
+    "altText": "A modern conference room featuring a long white table with integrated tablets and ergonomic grey mesh chairs. The space is defined by an acoustical wood fiber ceiling with curved perimeter LED lighting and circular recessed panels, an Art Deco-inspired patterned accent wall in blush, sage, and gold tones, and a terracotta-colored wall panel.",
+    "description": "This contemporary conference room design blends functionality with vibrant aesthetics, creating an inspiring environment for collaboration. The striking Art Deco-patterned wall serves as a bold focal point, complemented by sophisticated acoustical treatments and integrated technology. Thoughtful material selection and layered lighting contribute to a professional yet inviting atmosphere for high-level discussions.",
+    "tags": [
+      "Conference Room",
+      "Corporate Interior",
+      "Art Deco Inspired",
+      "Acoustic Design",
+      "Modern Workspace",
+      "Integrated Technology"
+    ],
+    "materials": [
+      "Acoustic Wood Fiber Panels",
+      "Patterned Wallpaper",
+      "Glass Partition",
+      "Matte Solid Surface",
+      "Textured Carpet Tiles"
+    ],
+    "lighting": [
+      "Integrated Perimeter LED",
+      "Recessed Circular LED Panels",
+      "Linear Cove Lighting"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-5/photo-2.jpeg"
+  },
+  {
+    "altText": "A modern corporate conference room featuring a clean white rectangular conference table with light wood tone legs, surrounded by four light grey upholstered swivel chairs. The room is defined by a vibrant accent wall of sky blue vertical acoustic panels, complemented by a grey herringbone textured wall with a large frameless whiteboard, all illuminated by a sculptural overhead LED pendant and concealed linear cove lighting.",
+    "description": "This contemporary conference room is meticulously designed for focused collaboration and effective communication, blending aesthetic appeal with high functionality. A vibrant wall of sky blue acoustic panels, featuring an integrated large format display, serves as a striking focal point, balanced by a sophisticated grey textured wall and a sleek, minimalist conference table. The innovative lighting scheme, including a sculptural LED pendant and linear cove illumination, creates an inviting and dynamic atmosphere conducive to productive meetings.",
+    "tags": [
+      "Conference Room",
+      "Corporate Interior Design",
+      "Acoustic Treatment",
+      "Modern Office",
+      "Meeting Space",
+      "Collaborative Space"
+    ],
+    "materials": [
+      "Acoustic Paneling",
+      "Textured Wallcovering",
+      "Laminate Tabletop",
+      "Upholstered Fabric",
+      "Carpet Tiles",
+      "Light Wood Veneer"
+    ],
+    "lighting": [
+      "Sculptural LED Pendant",
+      "Linear Cove Lighting",
+      "Recessed Linear Lighting"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-5/photo-3.jpg"
+  },
+  {
+    "altText": "A modern corporate reception area features a grey veined stone reception desk, set against a dark accent wall with vertical warm wood slats and integrated linear backlighting. The space is anchored by a polished white marble floor with dark veining, complemented by an abstract artwork, lush green plants, and a full-height glass partition on the left.",
+    "description": "This sophisticated corporate reception embodies a minimalist yet inviting aesthetic, thoughtfully designed to create a professional first impression. The interplay of refined materials, including sleek stone and polished marble, with natural wood accents and strategic lighting, defines a space that is both elegant and functional. Controlled illumination highlights the brand identity wall and architectural details, enhancing the overall user experience.",
+    "tags": [
+      "Corporate Reception",
+      "Modern Minimalist",
+      "Material Harmony",
+      "Biophilic Design",
+      "Brand Integration",
+      "Feature Wall"
+    ],
+    "materials": [
+      "Polished White Marble",
+      "Grey Veined Stone",
+      "Light Wood Slats",
+      "Textured Concrete-Look Wall",
+      "Architectural Glass",
+      "Matte Black Metal"
+    ],
+    "lighting": [
+      "Recessed Linear Lighting",
+      "Suspended Pendant Lights",
+      "Integrated Backlighting",
+      "Accent Lighting"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-6/photo-1.jpeg"
+  },
+  {
+    "altText": "A contemporary executive office or meeting space features a collaborative desk with three black mesh task chairs, set against a window wall offering panoramic city views. The interior showcases textured light-neutral wall coverings, an integrated credenza with warm wood and white laminate finishes, and a vibrant accent wall with fluted acoustic panels illuminated by integrated lighting.",
+    "description": "This executive office provides a sophisticated and functional environment designed for collaboration and focused work. The design seamlessly integrates ergonomic seating and a shared workspace with warm, inviting finishes and strategic pops of biophilic green. Thoughtful lighting design, coupled with expansive city views, creates an inspiring and productive atmosphere.",
+    "tags": [
+      "Executive Office",
+      "Collaborative Workspace",
+      "Modern Corporate",
+      "Fluted Wall Panel",
+      "Integrated Storage",
+      "City View Office"
+    ],
+    "materials": [
+      "Textured Wallcovering",
+      "Warm Wood Laminate",
+      "White Laminate",
+      "Black Powder-Coated Metal",
+      "Fluted Acoustic Panel",
+      "Patterned Carpet Tile"
+    ],
+    "lighting": [
+      "Recessed Linear Track Lighting",
+      "Perimeter Cove Lighting",
+      "Under-Shelf Lighting",
+      "Natural Daylight"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-6/photo-2.jpeg"
+  },
+  {
+    "altText": "A modern corporate boardroom features a long rectangular conference table with a light wood top and dark grey central insert, surrounded by ergonomic charcoal executive chairs and a vibrant teal patterned carpet. The space incorporates a multi-layered ceiling with dark linear acoustic baffles and a central rectangular illuminated pendant, alongside white fluted wall panels, textured light grey wallpaper with abstract art, and integrated shelving showcasing awards.",
+    "description": "This sophisticated boardroom design seamlessly blends professional functionality with a refined aesthetic, fostering an environment conducive to high-level discussions. A striking teal carpet area anchors the meeting zone, providing a vibrant contrast to the serene palette of warm wood veneers, light grey textures, and charcoal furnishings. Thoughtfully integrated technology and layered ambient lighting enhance the room's dynamic and inspiring atmosphere.",
+    "tags": [
+      "Boardroom Design",
+      "Corporate Interiors",
+      "Acoustic Ceiling",
+      "Integrated Technology",
+      "Executive Meeting Room",
+      "Modern Office"
+    ],
+    "materials": [
+      "Wood Veneer",
+      "Acoustic Baffles",
+      "Textured Wallcovering",
+      "Upholstered Fabric",
+      "Charcoal Leather Seating",
+      "Patterned Carpet"
+    ],
+    "lighting": [
+      "Linear LED Pendant",
+      "Recessed Downlights",
+      "Perimeter Cove Lighting",
+      "Backlit Shelving"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-6/photo-3.jpeg"
+  },
+  {
+    "altText": "An expansive open-plan office space featuring rows of white workstations with low fabric partitions in deep blue and charcoal, beneath linear suspended planters adorned with lush greenery. A textured dark grey carpet defines the workstation zone, contrasting with a polished white porcelain tile corridor on the right, which leads to glass-partitioned rooms under a ceiling with recessed downlights.",
+    "description": "This dynamic open-plan corporate environment masterfully blends functionality with biophilic elements, creating an inspiring and productive workspace. Lush suspended planters and vibrant accent walls with motivational graphics infuse energy and a connection to nature, fostering employee well-being. The thoughtful material palette and integrated lighting enhance the contemporary aesthetic, offering a bright and collaborative atmosphere.",
+    "tags": [
+      "Open-plan Office",
+      "Workstation Design",
+      "Biophilic Interior",
+      "Corporate Workspace",
+      "Contemporary Office",
+      "Workplace Wellness"
+    ],
+    "materials": [
+      "Textured Carpet Tiles",
+      "Polished Porcelain Tile",
+      "Matte Laminate",
+      "Acoustic Fabric Panels",
+      "Painted Drywall",
+      "Framed Glass Partitions"
+    ],
+    "lighting": [
+      "Recessed Linear LED Panels",
+      "Integrated Grid Lighting",
+      "Recessed Ceiling Downlights"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-6/photo-4.jpeg"
+  },
+  {
+    "altText": "A modern corporate control room featuring workstations with ergonomic black mesh chairs, white desks, and slate blue privacy screens. The walls are lined with large digital screens displaying financial charts under a bright LED grid ceiling.",
+    "description": "An advanced financial monitoring environment designed for high performance. The layout integrates multi-screen data walls with ergonomic workstations and acoustic paneling to support focused, real-time decision making.",
+    "tags": [
+      "Control Room",
+      "Trading Floor",
+      "Workstation",
+      "Corporate Office",
+      "Acoustic Solutions"
+    ],
+    "materials": [
+      "Acoustic Fabric Panels",
+      "Modular Carpet",
+      "Laminate Worksurfaces",
+      "Mesh"
+    ],
+    "lighting": [
+      "Recessed LED Grid Panels",
+      "Backlit Digital Screens"
+    ],
+    "isHeroCandidate": false,
+    "url": "/projects/project-6/photo-5.jpeg"
+  },
+  {
+    "altText": "A modern corporate reception and waiting lounge featuring teal upholstered armchairs on high-gloss gray marble flooring, beneath a linear wood-slat ceiling with integrated strip lighting. The background displays a prominent magenta brand fascia, glass-partitioned offices, and a light-toned accent wall decorated with a black world map.",
+    "description": "This sophisticated corporate lobby balances vibrant brand identity with refined architectural textures. Warm timber ceiling baffles contrast elegantly with polished stone flooring, while curated teal lounge seating and a magenta brand accent wall create a welcoming yet highly professional atmosphere.",
+    "tags": [
+      "Reception",
+      "Waiting Lounge",
+      "Corporate Lobby",
+      "Modern Office Design",
+      "Feature Ceiling"
+    ],
+    "materials": [
+      "Polished Marble",
+      "Warm Wood Slats",
+      "Powder-Coated Aluminum",
+      "Textured Plaster",
+      "Glass Partitions"
+    ],
+    "lighting": [
+      "Linear LED Strips",
+      "Ambient Lighting",
+      "Natural Light"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-7/photo-1.jpeg"
+  },
+  {
+    "altText": "A symmetrical, perspective shot of a modern corporate conference room featuring a long oak table surrounded by grey ergonomic chairs. The space is defined by a dramatic timber-slatted ceiling with integrated linear LED lighting and fluted acoustic wall panels.",
+    "description": "Designed for high-level collaboration, this executive boardroom showcases an impeccable balance of warmth and technical precision. The striking timber-slatted ceiling, integrated architectural lighting, and rich fluted wall paneling create a sophisticated, acoustically optimized environment. A central oak table anchored by ergonomic seating establishes a commanding yet inviting focal point.",
+    "tags": [
+      "Conference Room",
+      "Boardroom",
+      "Acoustic Panels",
+      "Symmetrical Design",
+      "Timber Slats",
+      "Corporate Office"
+    ],
+    "materials": [
+      "Warm Oak",
+      "Fluted Acoustic Paneling",
+      "Glass Partitioning",
+      "Grey Mesh",
+      "Textured Carpet"
+    ],
+    "lighting": [
+      "Linear LED Strips",
+      "Cylindrical Downlights",
+      "Cove Lighting",
+      "Architectural Lighting"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-7/photo-2.png"
+  },
+  {
+    "altText": "A wide-angle architectural perspective of a modern open-plan corporate office featuring linear workstations divided by integrated planters filled with lush green foliage. On the left, glass-partitioned private offices are framed in warm oak wood paneling, balanced by an industrial concrete ceiling with custom suspended acoustic rafts and halo LED lighting.",
+    "description": "This progressive corporate workspace seamlessly integrates biophilic design with a refined industrial aesthetic. Built-in planters filled with vibrant greenery act as natural spatial dividers between ergonomic workstations, while custom-designed suspended acoustic ceiling rafts with integrated halo LED illumination define the collaborative zones. Warm oak paneling and a subtly textured sand-and-terracotta carpet floor soften the raw concrete structure, creating a balanced, high-performance office environment.",
+    "tags": [
+      "Open-Plan Office",
+      "Biophilic Design",
+      "Acoustic Ceilings",
+      "Workstation Design",
+      "Corporate Interiors",
+      "Modern Office Partitioning"
+    ],
+    "materials": [
+      "Warm Oak Veneer",
+      "Exposed Concrete",
+      "Acoustic Felt",
+      "Charcoal Powder-Coated Metal",
+      "Textured Carpet Tiles"
+    ],
+    "lighting": [
+      "Suspended LED Halo Ring",
+      "Linear Profile Lighting",
+      "Warm Cove Lighting",
+      "Natural Daylight"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-7/photo-3.jpeg"
+  },
+  {
+    "altText": "A contemporary executive private office featuring a gray lounge sofa paired with a round black veined marble coffee table, leading to an executive desk with gray ergonomic task chairs. The room is enclosed by a geometric textured accent wall on the left, a ribbed wallcovering with abstract art on the right, and a window offering a cityscape view.",
+    "description": "This sophisticated executive suite masterfully integrates a collaborative lounge area with a focused workstation. A refined palette of charcoal, light gray, and matte black is warmed by continuous ceiling cove lighting, while rich textures and a Nero Marquina-style marble table add layers of understated luxury.",
+    "tags": [
+      "Executive Office",
+      "Private Cabin",
+      "Office Lounge Area",
+      "Contemporary Workspace",
+      "Modern Corporate Design"
+    ],
+    "materials": [
+      "Black Veined Marble",
+      "Textured Wallcovering",
+      "Woven Carpet Tile",
+      "Matte Black Metal",
+      "Gray Fabric Upholstery"
+    ],
+    "lighting": [
+      "Cove Lighting",
+      "Linear Pendant Light",
+      "Recessed Track Lighting",
+      "Natural Daylighting"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-7/photo-4.jpg"
+  },
+  {
+    "altText": "A symmetrical corporate reception lobby featuring a centrally positioned Calacatta marble reception desk against a textured grey plaster wall with backlit corporate signage. Flanking the desk are two mirror-image waiting areas with terracotta-colored lounge chairs on circular rust-red rugs, framed by warm oak wood paneling and a linear timber slat ceiling.",
+    "description": "This corporate lobby exudes contemporary elegance through a highly symmetrical layout and a balanced material palette. Highlighting warm oak paneling, textured plaster walls, and rich terracotta accents, the space is grounded by polished marble flooring and structured timber ceiling slats. Ambient cove lighting and a backlit logo create a commanding, professional focal point.",
+    "tags": [
+      "Reception",
+      "Lobby",
+      "Waiting Area",
+      "Symmetrical Design",
+      "Corporate Signage"
+    ],
+    "materials": [
+      "Calacatta Marble",
+      "Oak Wood Paneling",
+      "Textured Plaster",
+      "Terracotta Upholstery"
+    ],
+    "lighting": [
+      "Cove Lighting",
+      "Backlit Signage",
+      "Linear LED Strips",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-8/photo-2.jpeg"
+  },
+  {
+    "altText": "A light-filled corporate breakout zone featuring chartreuse and cerulean blue armchairs arranged with low white circular tables along a floor-to-ceiling window wall. The industrial ceiling features exposed concrete, ductwork, and suspended black hexagonal mesh frames with integrated cylindrical pendant lights.",
+    "description": "This dynamic collaborative lounge leverages expansive glazing to flood the workspace with natural light while offering panoramic urban views. The raw, industrial aesthetic of the exposed concrete ceiling and matte black accents contrasts beautifully with the vivid chartreuse and azure upholstery, creating an inspiring environment for informal meetings.",
+    "tags": [
+      "Breakout Zone",
+      "Collaborative Workspace",
+      "Office Lounge",
+      "Modern Corporate Design"
+    ],
+    "materials": [
+      "Exposed Concrete",
+      "Textured Grey Carpet",
+      "Matte Black Metal",
+      "White Laminate",
+      "Upholstered Fabric"
+    ],
+    "lighting": [
+      "Natural Daylighting",
+      "Cylindrical Pendant Lights",
+      "Ambient Light"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-8/photo-3.jpg"
+  },
+  {
+    "altText": "A spacious corporate cafeteria featuring modern white and terracotta seating, light oak communal tables with integrated planter boxes, and suspended grey acoustic ceiling panels. Cylindrical white pendant lights illuminate the polished concrete flooring, while botanical-themed columns add a biophilic touch.",
+    "description": "An expansive corporate cafeteria designed to foster community and wellness through biophilic elements and sophisticated acoustic design. Suspended felt ceiling panels mitigate sound, while light oak tables, curated greenery, and a warm terracotta and sage palette create an inviting, residential-inspired dining experience.",
+    "tags": [
+      "Corporate Cafeteria",
+      "Biophilic Design",
+      "Acoustic Ceiling",
+      "Communal Dining",
+      "Modern Breakroom"
+    ],
+    "materials": [
+      "Polished Concrete",
+      "Acoustic Felt",
+      "Light Oak",
+      "Powder-Coated Steel"
+    ],
+    "lighting": [
+      "Cylindrical Pendant Lights",
+      "Recessed Spotlights",
+      "Ambient Cove Lighting"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-8/photo-6.jpeg"
+  },
+  {
+    "altText": "A luxurious hospitality elevator lobby featuring polished travertine flooring with curved light reflections, dual stainless steel elevator doors framed in veined marble, and an overhead curved mezzanine with a glass balustrade. On the left, a lounge area features forest green velvet barstools, a chevron-patterned wood accent wall, and glowing pendant lights.",
+    "description": "This sophisticated elevator lobby and lounge space showcases a seamless integration of organic textures and sleek architectural lines. A polished stone floor reflecting warm ambient light anchors the entryway, while the sweeping curved mezzanine and rich walnut wood-clad feature wall establish a refined, welcoming hospitality experience.",
+    "tags": [
+      "Elevator Lobby",
+      "Lounge",
+      "Mezzanine",
+      "Modern Hospitality",
+      "Transition Space"
+    ],
+    "materials": [
+      "Polished Travertine",
+      "Brushed Steel",
+      "Walnut Wood Paneling",
+      "Tempered Glass",
+      "Velvet Upholstery"
+    ],
+    "lighting": [
+      "Warm LED Cove Lighting",
+      "Recessed Downlights",
+      "Opal Glass Pendant Lights"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-9/photo-1.jpg"
+  },
+  {
+    "altText": "A grand double-height clubhouse lobby featuring polished travertine flooring, a sweeping curved mezzanine with glass railings, and a towering textured feature wall accentuated by warm cove lighting. Elegant lounge seating clusters and a contemporary service bar in the background enhance the sophisticated spatial layout.",
+    "description": "This soaring double-height lobby lounge masterfully balances scale and intimacy through its dramatic architectural lines. A curved mezzanine walkway floats above polished travertine floors, while a backlit stone-textured feature wall and rich walnut accents inject warmth and texture into the expansive hospitality space.",
+    "tags": [
+      "Lobby Lounge",
+      "Mezzanine",
+      "Double-Height Ceiling",
+      "Reception Area",
+      "Contemporary Hospitality",
+      "Clubhouse Design"
+    ],
+    "materials": [
+      "Polished Travertine",
+      "Curved Glass",
+      "Warm Walnut Wood",
+      "Matte Black Steel",
+      "Muted Taupe Fabric",
+      "Emerald Velvet"
+    ],
+    "lighting": [
+      "Linear Track Lighting",
+      "Warm LED Cove Lighting",
+      "Recessed Downlights",
+      "Pendant Lighting"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-9/photo-2.jpg"
+  },
+  {
+    "altText": "A luxurious hospitality banquet hall featuring round dining tables dressed in ivory and deep teal linens, surrounded by white slipcovered chairs with matching teal sashes. The high-ceilinged space is illuminated by a series of dramatic, oversized circular halo pendant lights in brushed champagne gold, set against warm wood columns and polished terrazzo flooring.",
+    "description": "This grand ballroom design showcases a sophisticated hospitality venue optimized for high-end events. The rhythmic repetition of sculptural, golden halo chandeliers draws the eye through the deep perspective, complementing the rich wood columns and meticulous table settings. A refined color palette of deep teal, ivory, and warm metallics evokes an atmosphere of timeless luxury.",
+    "tags": [
+      "Banquet Hall",
+      "Ballroom",
+      "Event Space",
+      "Luxury Hospitality",
+      "Grand Interior"
+    ],
+    "materials": [
+      "Polished Terrazzo",
+      "Brushed Brass",
+      "Warm Oak",
+      "Rich Velvet",
+      "Ivory Linens"
+    ],
+    "lighting": [
+      "Sculptural Halo Pendants",
+      "Cove Lighting",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-9/photo-3.png"
+  },
+  {
+    "altText": "A grand banquet hall featuring rows of white-covered chairs with teal sashes, aligned under a striking ceiling installation of interlocking rose gold halo ring chandeliers. The space is flanked by warm wood-paneled columns with geometric patterned inserts, set against polished cream stone flooring.",
+    "description": "Designed for grand celebrations, this sophisticated banquet hall balances opulent ceiling features with elegant, structured seating. A sculptural canopy of interlocking rose-gold ring chandeliers casts a warm, ambient glow across the polished travertine flooring, while wood-paneled columns add a sense of rhythmic symmetry and refined texture to the space.",
+    "tags": [
+      "Banquet Hall",
+      "Event Space",
+      "Ceiling Design",
+      "Modern Luxury",
+      "Grand Ballroom"
+    ],
+    "materials": [
+      "Polished Travertine",
+      "Warm Wood Paneling",
+      "Brushed Rose Gold",
+      "Geometric Wallpaper"
+    ],
+    "lighting": [
+      "LED Halo Chandeliers",
+      "Recessed Cove Lighting",
+      "Warm Spotlights"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-9/photo-4.png"
+  },
+  {
+    "altText": "A grand banquet hall layout featuring neat rows of fabric-draped seating on polished cream marble floors with dark marble borders. The architectural space is crowned by a detailed coffered ceiling with hexagonal pattern relief work and classic shaded chandeliers.",
+    "description": "This magnificent banquet hall showcases a seamless blend of classical symmetry and modern opulence. Featuring detailed wall paneling with brushed brass inserts, geometric coffered ceilings with warm ambient glow, and polished stone floors, the space is engineered for grand-scale hospitality events.",
+    "tags": [
+      "Banquet Hall",
+      "Ballroom",
+      "Symmetrical Layout",
+      "Ceiling Detail",
+      "Event Space"
+    ],
+    "materials": [
+      "Polished Cream Marble",
+      "Brushed Brass",
+      "Warm Walnut Veneer",
+      "Champagne Fabric"
+    ],
+    "lighting": [
+      "Cove Lighting",
+      "Classic Chandeliers",
+      "Recessed Downlights",
+      "Wall Sconces"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-9/photo-5.png"
+  },
+  {
+    "altText": "A double-height resort lobby featuring a grand staircase with vibrant patterned tile risers and a wrought-iron balustrade under a thatched ceiling with rustic iron chandeliers. Arched black metal-framed glass partitions flank the terracotta-tiled floor, framing views of adjacent recreational and lounge areas.",
+    "description": "This expansive double-height lobby blends rustic coastal charm with refined regional craftsmanship. A striking staircase adorned with ornate patterned tiles serves as the architectural anchor, while textured plaster walls, warm terracotta flooring, and high thatched ceilings with timber rafters evoke an airy, grounded sanctuary.",
+    "tags": [
+      "Lobby",
+      "Grand Staircase",
+      "Double-Height Space",
+      "Arched Glazing",
+      "Gallery Wall"
+    ],
+    "materials": [
+      "Terracotta",
+      "Textured Plaster",
+      "Patterned Ceramic",
+      "Wrought Iron",
+      "Thatch Reed"
+    ],
+    "lighting": [
+      "Rustic Chandeliers",
+      "Warm Cove Lighting",
+      "Recessed Downlights",
+      "Natural Daylighting"
+    ],
+    "isHeroCandidate": true,
+    "url": "/projects/project-10/photo-1.jpg"
+  },
+  {
+    "url": "/projects/project-10/photo-2.jpg",
+    "altText": "Balinese-inspired resort lounge featuring custom rattan armchairs with white linens, teak accent tables, and lush indoor palm planters set against a textured beige plaster wall.",
+    "description": "This serene hospitality seating area embodies tropical Balinese design, integrating organic textures and natural wood elements. The layout centers on elegant rattan armchairs and rich teak details, creating a relaxed, tactile sanctuary for guests.",
+    "tags": [
+      "Resort Lounge",
+      "Balinese Style",
+      "Hospitality Interior",
+      "Woven Seating",
+      "Tropical Plants"
+    ],
+    "materials": [
+      "Teak Wood",
+      "Woven Rattan",
+      "Natural Linen",
+      "Textured Plaster"
+    ],
+    "lighting": [
+      "Warm Recessed Spotlights",
+      "Soft Ambient Daylighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-10/photo-3.jpg",
+    "altText": "An exquisite reception desk showcasing a custom hand-carved cement mural of tropical foliage, paired with a polished wood counter and warm under-desk illumination.",
+    "description": "The reception desk stands as a centerpiece of Balinese craftsmanship, featuring a beautifully detailed cement mural of lush tropical leaves. Warm accent lighting highlights the texture of the relief work, welcoming guests with artistic warmth.",
+    "tags": [
+      "Reception Desk",
+      "Cement Mural",
+      "Feature Wall",
+      "Foliage Relief",
+      "Resort Entrance"
+    ],
+    "materials": [
+      "Carved Cement",
+      "Polished Teak",
+      "Micro-Concrete Flooring"
+    ],
+    "lighting": [
+      "Under-Counter LED Strip",
+      "Warm Accent Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-10/photo-4.jpg",
+    "altText": "A transitional hallway in the resort displaying a ceiling covered in decorative woven cane sheets, framed by timber rafters and illuminated by hanging dome pendant lights.",
+    "description": "This hallway highlights natural ceiling textures, using detailed woven cane panels framed by dark timber rafters. Symmetrical dome pendant lights cast soft shadows down the corridor, enhancing the organic hospitality experience.",
+    "tags": [
+      "Corridor",
+      "Ceiling Detail",
+      "Woven Cane",
+      "Timber Rafters",
+      "Pendant Lighting"
+    ],
+    "materials": [
+      "Woven Cane",
+      "Dark Oak Timber",
+      "Textured Plaster Walls"
+    ],
+    "lighting": [
+      "Hanging Woven Pendants",
+      "Recessed Cove Lighting"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-10/photo-5.jpg",
+    "altText": "Resort dining room featuring round timber tables, chairs with woven rattan backrests, and large sliding glass doors framing a garden landscape.",
+    "description": "An airy dining space designed to blur the boundary between indoor luxury and outdoor nature. Custom teak furniture and woven textures coordinate with expansive glass openings to create a breezy, garden-facing dining experience.",
+    "tags": [
+      "Dining Room",
+      "Teak Furniture",
+      "Garden Views",
+      "Glass Sliding Doors",
+      "Indoor-Outdoor"
+    ],
+    "materials": [
+      "Solid Teak",
+      "Woven Rattan",
+      "Polished Stone Tiles"
+    ],
+    "lighting": [
+      "Recessed Downlights",
+      "Natural Daylight"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-10/photo-6.jpeg",
+    "altText": "A luxury resort bedroom suite featuring a four-poster canopy bed with sheer white draping, dark wood ceiling panels, and bedside hanging lanterns.",
+    "description": "This private bedroom sanctuary blends romance and luxury, featuring a draped canopy bed against dark wood paneling. Balinese-inspired hanging lanterns and soft textures evoke an intimate, peaceful overnight retreat.",
+    "tags": [
+      "Suite Bedroom",
+      "Canopy Bed",
+      "Wood Ceiling",
+      "Romantic Retreat",
+      "Hospitality Bedding"
+    ],
+    "materials": [
+      "Sheer Linen",
+      "Dark Mahogany Wood",
+      "Woven Jute Rug"
+    ],
+    "lighting": [
+      "Hanging Lanterns",
+      "Warm Bedside Lamps",
+      "Cove Lighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-10/photo-7.jpg",
+    "altText": "A boutique bathroom design with a solid stone vessel sink mounted on a thick rustic teak vanity slab, accented by slate wall tiles.",
+    "description": "The guest powder room features high-contrast textures, combining a raw stone basin with a live-edge teak vanity. Dark slate tiles and minimalist matte black hardware create a tactile, spa-like atmosphere.",
+    "tags": [
+      "Bathroom",
+      "Stone Basin",
+      "Teak Vanity",
+      "Slate Wall Tiles",
+      "Spa Aesthetic"
+    ],
+    "materials": [
+      "Natural Slate",
+      "Rustic Teak Wood",
+      "River Stone"
+    ],
+    "lighting": [
+      "Backlit Mirror LED",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-11/photo-1.png",
+    "altText": "Sophisticated boutique storefront for Kohar by Kanika, featuring a glass facade with brushed brass framing and elegant glowing signage.",
+    "description": "The entrance design sets a high-end tone for the retail experience, using minimalist glass doors framed in satin brass. Subtle gold lettering and warm window display spotlights draw eyes into the glittering showroom.",
+    "tags": [
+      "Storefront",
+      "Boutique Entrance",
+      "Brass Framing",
+      "Luxury Retail",
+      "Signage Design"
+    ],
+    "materials": [
+      "Satin Brass",
+      "Tempered Glass",
+      "Polished Granite Portal"
+    ],
+    "lighting": [
+      "Glow Signage LEDs",
+      "Display Window Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-11/photo-2.png",
+    "altText": "Main showroom gallery with glass-topped white marble display islands, emerald velvet stools, and arched wall alcoves with glowing backlights.",
+    "description": "Designed to showcase high-jewelry collections, the main retail gallery integrates clean white marble counters with rich brass detailing. Arch-shaped wall displays and velvet-upholstered stools create an intimate, luxurious selection environment.",
+    "tags": [
+      "Showroom Gallery",
+      "Display Islands",
+      "Arched Alcoves",
+      "Jewelry Retail",
+      "High-End Commercial"
+    ],
+    "materials": [
+      "White Statuario Marble",
+      "Brushed Brass",
+      "Emerald Velvet Upholstery"
+    ],
+    "lighting": [
+      "Backlit LED Archways",
+      "Focused Jewelry Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-11/photo-3.png",
+    "altText": "A private consultation room featuring plush teal velvet armchairs, a round black marble discussion table, and custom brass pendant lights.",
+    "description": "This private consultation zone offers clients an exclusive environment for viewing bespoke pieces. Rich teal velvet seating, deep black marble tables, and decorative brass fixtures create a sense of secure, high-end hospitality.",
+    "tags": [
+      "Private Consultation",
+      "VIP Seating",
+      "Discussion Table",
+      "Velvet Armchairs",
+      "Retail Lounge"
+    ],
+    "materials": [
+      "Black Nero Marquina Marble",
+      "Teal Velvet",
+      "Brass Hardware"
+    ],
+    "lighting": [
+      "Decorative Pendant Lights",
+      "Dimmable Recessed Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-11/photo-4.png",
+    "altText": "Close-up of a velvet-lined jewelry presentation tray resting on a brushed gold counter under focused accent lighting.",
+    "description": "This detail view highlights the boutique's meticulous presentation standards, showing a velvet display tray under high-color-rendering spotlights. The luxurious textures emphasize the brilliance of the handcrafted jewelry pieces.",
+    "tags": [
+      "Detail View",
+      "Jewelry Display",
+      "Presentation Tray",
+      "Velvet lining",
+      "Tactile Textures"
+    ],
+    "materials": [
+      "Soft Velvet",
+      "Brushed Gold",
+      "Polished Glass"
+    ],
+    "lighting": [
+      "High-CRI Spotlights",
+      "Warm Ambient Glow"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-12/photo-1.png",
+    "altText": "Spacious car showroom floor featuring glossy white tiled flooring, black structural columns, and large overhead lightboxes displaying new vehicles.",
+    "description": "This vast automotive retail floor is designed around modern brand guidelines. High-gloss flooring reflects the intense white glow of architectural ceiling lightboxes, ensuring the vehicles on display are highlighted with crisp, shadow-free illumination.",
+    "tags": [
+      "Showroom Floor",
+      "Automotive Retail",
+      "Ceiling Lightbox",
+      "Glossy Flooring",
+      "Modern Commercial"
+    ],
+    "materials": [
+      "High-Gloss Ceramic Tiles",
+      "Powder-Coated Steel",
+      "Glass Curtain Wall"
+    ],
+    "lighting": [
+      "Stretch Ceiling Lightboxes",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-12/photo-2.png",
+    "altText": "A customer lounge area with black leather armchairs, a wooden coffee table, and a large digital video wall.",
+    "description": "The customer lounge combines comfort and digital branding, offering premium black leather seating positioned before a large video display wall. The warm wood accents break the clean, industrial showroom aesthetic.",
+    "tags": [
+      "Customer Lounge",
+      "Waiting Area",
+      "Digital Video Wall",
+      "Leather Seating",
+      "Boutique Retail"
+    ],
+    "materials": [
+      "Black Leather",
+      "Oak Wood Veneer",
+      "Polished Flooring"
+    ],
+    "lighting": [
+      "Recessed Linear LEDs",
+      "Warm Accent Lights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-12/photo-3.png",
+    "altText": "Dedicated vehicle delivery bay featuring a large glowing halo ceiling light, dark grey wall panels, and premium wood floor deck.",
+    "description": "Designed for the ultimate customer delivery experience, this bay centers around a dramatic circular ceiling lightbox. Dark grey walls and premium wood decking create a high-contrast, theatrical frame for the new vehicle.",
+    "tags": [
+      "Delivery Bay",
+      "Halo Lightbox",
+      "Wood Decking",
+      "Customer Experience",
+      "Theatrical Lighting"
+    ],
+    "materials": [
+      "Wood-Plastic Composite Decking",
+      "Textured Wall Panels",
+      "Acrylic Diffuser"
+    ],
+    "lighting": [
+      "Circular Halo Lightbox",
+      "Linear Accent LEDs"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-12/photo-4.png",
+    "altText": "Semi-private sales consultation desks separated by glass panels, featuring ergonomic office chairs and desk plants.",
+    "description": "The consultation zone is planned for transactional focus and client privacy, utilizing clear glass dividers to maintain spatial openness. Clean laminate desks and ergonomic seating provide a functional, professional setting.",
+    "tags": [
+      "Consultation Area",
+      "Sales Desk",
+      "Glass Partitions",
+      "Office Furniture",
+      "Commercial Interior"
+    ],
+    "materials": [
+      "White Laminate",
+      "Tempered Glass",
+      "Anodized Aluminum"
+    ],
+    "lighting": [
+      "Linear Overhead LED Fixtures",
+      "Recessed Downlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-13/photo-1.png",
+    "altText": "Double-height glass showroom exterior facade in Goa, featuring black metallic cladding and red illuminated Kia brand signage.",
+    "description": "This stunning double-height showroom facade stands out through its modern black metallic panels and expansive glass curtain wall. Glowing red branding elements create high visibility, displaying the interior layout to passing traffic.",
+    "tags": [
+      "Showroom Facade",
+      "Double-Height Exterior",
+      "Glass Curtain Wall",
+      "Brand Signage",
+      "Night Photography"
+    ],
+    "materials": [
+      "Aluminum Composite Panels",
+      "Structural Glass",
+      "Steel Framing"
+    ],
+    "lighting": [
+      "Illuminated Logo LEDs",
+      "Exterior Spotlights",
+      "Interior Ambient Glow"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-13/photo-2.png",
+    "altText": "Main vehicle display floor with grey microconcrete flooring, minimalist white walls, and linear LED tracks suspended from a black ceiling.",
+    "description": "Designed with a contemporary industrial theme, the main showroom floor utilizes matte grey microconcrete to contrast with the polished vehicles. Suspended linear LED tracks create clean lines of light across the expansive space.",
+    "tags": [
+      "Showroom Floor",
+      "Microconcrete Flooring",
+      "Linear Light Tracks",
+      "Minimalist Design",
+      "Automotive Retail"
+    ],
+    "materials": [
+      "Microconcrete",
+      "Exposed Concrete",
+      "Suspended Metal Tracks"
+    ],
+    "lighting": [
+      "Linear LED Tracks",
+      "Directional Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-13/photo-3.png",
+    "altText": "Double-height customer lounge featuring grey fabric sectional sofas, a sleek coffee bar counter, and a glass-walled conference room above.",
+    "description": "A comfortable, spacious customer lounge utilizing a double-height volume to create airiness. Grey fabric sofas and a minimalist coffee bar provide hospitality, while the glass conference room above maintains a connection to the business floor.",
+    "tags": [
+      "Customer Lounge",
+      "Double-Height Space",
+      "Coffee Bar",
+      "Sectional Sofa",
+      "Mezzanine Glass"
+    ],
+    "materials": [
+      "Woven Fabric",
+      "Polished Concrete",
+      "Laminate Panels"
+    ],
+    "lighting": [
+      "Recessed Downlights",
+      "Natural Daylight"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-13/photo-4.png",
+    "altText": "Exclusive VIP discussion room featuring walnut wood wall paneling, modern leather lounge chairs, and warm spotlights.",
+    "description": "The VIP discussion room offers a warm, premium environment for private negotiations. Custom walnut wood wall cladding and low-slung leather lounge chairs create a sophisticated hospitality atmosphere.",
+    "tags": [
+      "VIP Room",
+      "Discussion Lounge",
+      "Walnut Paneling",
+      "Leather Lounge Chairs",
+      "Private Seating"
+    ],
+    "materials": [
+      "Walnut Wood Veneer",
+      "Cognac Leather",
+      "Charcoal Carpet"
+    ],
+    "lighting": [
+      "Warm Recessed Spotlights",
+      "Hidden LED Cove Lights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-14/photo-1.jpeg",
+    "altText": "Entrance lobby of Madanlal Chhaganlal jewellers featuring a highly polished beige marble floor with dark stone inlays, and curved glass display counters.",
+    "description": "The entrance of this upscale jewelry store combines classic grandeur and modern security. A highly polished beige marble floor with intricate border inlays guides visitors to curved glass showcases housing premium collections.",
+    "tags": [
+      "Entrance Lobby",
+      "Marble Floor",
+      "Curved Counters",
+      "Luxury Retail",
+      "Classical Detail"
+    ],
+    "materials": [
+      "Beige Italian Marble",
+      "Curved Glass",
+      "Polished Brass"
+    ],
+    "lighting": [
+      "Crystal Chandelier",
+      "Recessed Showroom Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-14/photo-2.jpeg",
+    "altText": "Bespoke bridal jewelry section with gold-patterned wallpaper, deep red velvet lounge chairs, and gilded display cabinets.",
+    "description": "Designed for a premium bridal selection experience, this dedicated zone features ornate gold wallpaper and luxurious red velvet seating. Elegant brass display cases showcase intricate bridal designs under warm, focused light.",
+    "tags": [
+      "Bridal Section",
+      "Velvet Seating",
+      "Gilded Cabinets",
+      "Gold Wallpaper",
+      "Retail Experience"
+    ],
+    "materials": [
+      "Red Velvet",
+      "Gilded Wood",
+      "Patterned Wallpaper"
+    ],
+    "lighting": [
+      "Warm Spotlights",
+      "Under-Cabinet Display Lights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-14/photo-3.jpeg",
+    "altText": "General jewelry counter showroom showcasing a long row of dark wood and glass display counters, under a decorative coffered ceiling.",
+    "description": "This view shows the main showroom counter layout, designed for customer accessibility and secure viewing. A classic coffered ceiling with integrated spotlights ensures uniform ambient light across the dark timber display cases.",
+    "tags": [
+      "Showroom Counters",
+      "Coffered Ceiling",
+      "Wood Display Cases",
+      "Retail Layout",
+      "Jewelry Shop"
+    ],
+    "materials": [
+      "Dark Walnut Wood",
+      "Clear Glass",
+      "Polished Marble"
+    ],
+    "lighting": [
+      "Recessed Downlights",
+      "Showcase Internal LEDs"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-14/hero-clean.png",
+    "altText": "Clean, symmetrical perspective of a premium vault room entrance in Madanlal Chhaganlal showroom, displaying textured gold wall panels and brushed brass accents.",
+    "description": "This striking hero image highlights the luxurious architectural details of the premium display room. Textured gold leaf wall panels and vertical brushed brass trim frame a modern vault-inspired entrance, reflecting exquisite luxury and security.",
+    "tags": [
+      "Vault Entrance",
+      "Gold Wall Panels",
+      "Brushed Brass",
+      "Premium Showroom",
+      "Symmetrical Design"
+    ],
+    "materials": [
+      "Gold Leaf Paneling",
+      "Brushed Brass",
+      "Travertine Flooring"
+    ],
+    "lighting": [
+      "Linear LED Accents",
+      "Concealed Cove Lighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-15/photo-1.png",
+    "altText": "Elegant living room featuring plush mint green and cream velvet sofas, round marble-top coffee tables, and large windows with sheer drapes.",
+    "description": "This luxurious living space centers around a curated color palette of mint green, cream, and soft gold. Deep velvet sofas, gold-bordered coffee tables, and flowing window sheers create an atmosphere of light, sophisticated comfort.",
+    "tags": [
+      "Living Room",
+      "Velvet Sofa",
+      "Marble Coffee Table",
+      "Mint Green Theme",
+      "Luxury Residential"
+    ],
+    "materials": [
+      "Mint Green Velvet",
+      "Polished White Marble",
+      "Brushed Gold Steel",
+      "Sheer Linen"
+    ],
+    "lighting": [
+      "Modern Chandelier",
+      "Warm LED Cove Lights",
+      "Natural Daylighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-15/photo-2.png",
+    "altText": "Dining room showcasing a custom dining table with an exotic mint green marble top, high-back velvet chairs, and a geometric crystal chandelier.",
+    "description": "The dining area showcases an exquisite custom table crafted from a single slab of mint green marble, coordinated with plush velvet seating. A modern crystal chandelier casts a shimmering glow, highlighting the rich stone textures.",
+    "tags": [
+      "Dining Room",
+      "Marble Table",
+      "Velvet Chairs",
+      "Crystal Chandelier",
+      "Fine Dining"
+    ],
+    "materials": [
+      "Mint Green Onyx Marble",
+      "Beige Velvet",
+      "Polished Chrome"
+    ],
+    "lighting": [
+      "Geometric Crystal Chandelier",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-15/photo-3.png",
+    "altText": "Master bedroom suite with a tufted velvet headboard, light silk wallpaper, built-in dresser vanity, and soft warm uplighting.",
+    "description": "Designed as a serene sanctuary, the master bedroom features delicate silk wallpaper and a high tufted headboard. Warm cove lighting and an integrated dressing table add functional luxury to the peaceful sleeping quarters.",
+    "tags": [
+      "Master Bedroom",
+      "Tufted Headboard",
+      "Silk Wallpaper",
+      "Vanity Dresser",
+      "Ambient Lighting"
+    ],
+    "materials": [
+      "Silk Fabric Wallpaper",
+      "Plush Headboard Velvet",
+      "Light Oak wood"
+    ],
+    "lighting": [
+      "Integrated Warm Uplighting",
+      "Bedside Pendant Lamps"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-15/photo-4.png",
+    "altText": "Sleek modular kitchen featuring sage green and white acrylic cabinets, light quartz countertops, and built-in modern appliances.",
+    "description": "This modern modular kitchen combines high-end functionality with a clean color scheme. Glossy sage green and white cabinets coordinate with light quartz countertops, while under-cabinet LED strips illuminate the work surfaces.",
+    "tags": [
+      "Modular Kitchen",
+      "Sage Green Cabinets",
+      "Quartz Countertops",
+      "Modern Kitchen",
+      "Under-Cabinet Lighting"
+    ],
+    "materials": [
+      "Glossy Acrylic Panels",
+      "Engineered Quartz",
+      "Stainless Steel"
+    ],
+    "lighting": [
+      "Under-Cabinet LED Strips",
+      "Recessed Downlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-15/photo-5.png",
+    "altText": "Kids bedroom with light oak wood bed, study desk with colorful wall shelves, and a built-in window seating bench.",
+    "description": "A vibrant, organized children's bedroom featuring functional oak wood built-ins. Brightly colored accent shelves above the study desk and a cozy upholstered window seat create spaces for both learning and relaxation.",
+    "tags": [
+      "Kids Bedroom",
+      "Study Desk",
+      "Wall Shelves",
+      "Window Bench",
+      "Custom Joinery"
+    ],
+    "materials": [
+      "Light Oak Laminate",
+      "Colored Lacquer Panels",
+      "Soft Cushion Fabric"
+    ],
+    "lighting": [
+      "Task Desk Lamp",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-15/photo-6.png",
+    "altText": "Balcony deck featuring weather-resistant WPC wood flooring, two wicker lounge armchairs, and a vertical green wall.",
+    "description": "This outdoor balcony deck is designed as a peaceful urban escape. Weatherproof wood decking is paired with durable wicker lounge chairs and a lush vertical garden, all softly illuminated by warm, decorative lighting.",
+    "tags": [
+      "Balcony Deck",
+      "WPC Flooring",
+      "Wicker Chairs",
+      "Vertical Garden",
+      "Outdoor Living"
+    ],
+    "materials": [
+      "Wood-Plastic Composite",
+      "Synthetic Rattan",
+      "Outdoor Fabric"
+    ],
+    "lighting": [
+      "Warm String Lights",
+      "Wall-Mounted Sconces"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-15/photo-7.png",
+    "altText": "Cosy family lounge featuring a grey fabric sectional sofa, textured wallpaper, and a wall-mounted media console.",
+    "description": "The secondary family room offers a casual, comfortable space for entertainment. A deep sectional sofa and minimalist wooden media console are set against subtle textured wallpaper, creating a relaxed watching environment.",
+    "tags": [
+      "Family Lounge",
+      "Sectional Sofa",
+      "Textured Wallpaper",
+      "Media Console",
+      "Cosy Seating"
+    ],
+    "materials": [
+      "Grey Woven Fabric",
+      "Oak Wood Laminate",
+      "Vinyl Wallpaper"
+    ],
+    "lighting": [
+      "Dimmable Recessed Spotlights",
+      "Warm Cove Lighting"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-15/photo-8.png",
+    "altText": "Guest bedroom with a minimalist beige fabric headboard, clean light wood paneling, and warm bedside pendant lamps.",
+    "description": "A clean, modern guest bedroom layout prioritizing guest comfort. Minimalist wood paneling and a simple beige headboard are accented by glowing bedside pendant lamps, creating a welcoming hotel-like feel.",
+    "tags": [
+      "Guest Bedroom",
+      "Minimalist Headboard",
+      "Wood Paneling",
+      "Pendant Lamps",
+      "Neutral Palette"
+    ],
+    "materials": [
+      "Beige Fabric",
+      "Light Birch Veneer",
+      "Brushed Brass"
+    ],
+    "lighting": [
+      "Bedside Pendant Lights",
+      "Recessed Ceiling Spotlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-15/photo-9.png",
+    "altText": "Foyer entrance displaying a backlit white marble accent wall panel, a minimalist console table with gold legs, and a geometric mirror.",
+    "description": "The entrance foyer makes a strong design statement with a translucent backlit marble panel. A geometric gold-framed mirror and a sleek console table enhance the luxury and brightness of the transitional space.",
+    "tags": [
+      "Entrance Foyer",
+      "Backlit Marble",
+      "Console Table",
+      "Geometric Mirror",
+      "Luxury Entrance"
+    ],
+    "materials": [
+      "Translucent White Marble",
+      "Gold Powder-Coated Steel",
+      "Mirror Glass"
+    ],
+    "lighting": [
+      "Hidden LED Backlights",
+      "Warm Overhead Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-15/photo-10.png",
+    "altText": "Powder room featuring Italian marble wall cladding, a floating wooden wash vanity, and a backlit round mirror.",
+    "description": "This compact powder room utilizes premium materials to maximize impact. Large-format Italian marble walls are paired with a floating wooden vanity and a large circular mirror with soft halo backlighting.",
+    "tags": [
+      "Powder Room",
+      "Italian Marble",
+      "Floating Vanity",
+      "Backlit Mirror",
+      "Compact Luxury"
+    ],
+    "materials": [
+      "Carrara Marble",
+      "Solid Teak Wood",
+      "Ceramic Basin"
+    ],
+    "lighting": [
+      "Halo LED Backlight",
+      "Recessed Downlight"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-16/photo-1.jpg",
+    "altText": "Balinese-themed show flat living room with low-slung teak sofas, woven cane ceiling panels, and tropical potted plants.",
+    "description": "This show flat living room showcases organic Balinese resort living. Low-slung wood sofas with neutral linen cushions sit beneath custom cane-paneled ceilings, surrounded by tropical indoor palms that enhance the relaxed, earthy mood.",
+    "tags": [
+      "Living Room",
+      "Teak Sofa",
+      "Cane Ceiling",
+      "Tropical Plants",
+      "Bali Style Residential"
+    ],
+    "materials": [
+      "Solid Teak",
+      "Woven Cane",
+      "Natural Linen",
+      "Microcement floor"
+    ],
+    "lighting": [
+      "Warm Spotlights",
+      "Natural Daylighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-16/photo-2.jpg",
+    "altText": "Dining space featuring a rustic solid teak dining table, chairs with woven rattan backrests, and suspended wicker pendant lamps.",
+    "description": "The dining zone utilizes organic textures, featuring a live-edge teak dining table and matching rattan chairs. Large woven wicker pendant lights hang low over the table, casting warm, textured light patterns across the room.",
+    "tags": [
+      "Dining Space",
+      "Teak Dining Table",
+      "Rattan Chairs",
+      "Wicker Pendants",
+      "Earthy Dining"
+    ],
+    "materials": [
+      "Live-edge Teak",
+      "Woven Rattan",
+      "Wicker Fibers"
+    ],
+    "lighting": [
+      "Wicker Pendant Lights",
+      "Recessed Downlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-16/photo-3.jpg",
+    "altText": "Master bedroom suite with a custom teak platform bed, a woven cane headboard, and sliding wood louver doors.",
+    "description": "This resort-style master bedroom centers on a low platform bed with a custom cane headboard. Sliding wood louver doors separate the room from the wardrobe, allowing natural light and air to flow freely.",
+    "tags": [
+      "Master Bedroom",
+      "Platform Bed",
+      "Cane Headboard",
+      "Louver Doors",
+      "Resort Style Bedroom"
+    ],
+    "materials": [
+      "Teak Wood",
+      "Woven Cane",
+      "Soft Cotton Linens"
+    ],
+    "lighting": [
+      "Warm Bedside Spotlights",
+      "Concealed Cove Lighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-16/photo-4.jpeg",
+    "altText": "Kitchen showcasing warm wood grain laminate cabinets, black granite countertops, and open wooden shelves with ceramic pottery.",
+    "description": "The kitchen design blends functionality with natural textures, featuring rich wood grain cabinets and a durable black granite countertop. Open wooden shelves showcase artisanal ceramic plates and mugs, matching the Balinese design theme.",
+    "tags": [
+      "Kitchen Design",
+      "Wood Cabinets",
+      "Granite Countertop",
+      "Open Shelves",
+      "Earthy Kitchen"
+    ],
+    "materials": [
+      "Wood Grain Laminate",
+      "Black Granite",
+      "Ceramic Pottery"
+    ],
+    "lighting": [
+      "Warm Under-Cabinet LEDs",
+      "Ceiling Spotlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-16/photo-5.png",
+    "altText": "Spacious balcony verandah with a bamboo screen ceiling, wicker daybed with white cushions, and potted tropical plants.",
+    "description": "An outdoor terrace designed as a Balinese daybed lounge. A bamboo-slat screen ceiling filters light over a cozy wicker daybed, surrounded by terracotta pots filled with tropical plants, creating a private outdoor oasis.",
+    "tags": [
+      "Balcony Verandah",
+      "Wicker Daybed",
+      "Bamboo Ceiling",
+      "Terracotta Pots",
+      "Outdoor Oasis"
+    ],
+    "materials": [
+      "Bamboo Slats",
+      "Synthetic Wicker",
+      "Terracotta Clay",
+      "Slate Floor Tiles"
+    ],
+    "lighting": [
+      "Warm Hanging Lanterns",
+      "Natural Sunlight"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-16/photo-6.jpeg",
+    "altText": "Cozy guest bedroom with textured sandy plaster walls, wood bed frame, and woven cotton throw blankets.",
+    "description": "This guest bedroom showcases earthy minimalism, pairing raw sandy textured plaster walls with a simple teak wood bed. Cream and beige woven textiles provide soft layer details under dim, warm bedside lights.",
+    "tags": [
+      "Guest Bedroom",
+      "Plaster Walls",
+      "Wood Bed Frame",
+      "Woven Textiles",
+      "Earthy Minimalism"
+    ],
+    "materials": [
+      "Sandy Plaster",
+      "Solid Teak",
+      "Woven Cotton"
+    ],
+    "lighting": [
+      "Warm Bedside Lamps",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-16/photo-7.jpeg",
+    "altText": "Study area featuring a clean teak writing desk, a leather-backed chair, and wooden bookcases holding decorative artifacts.",
+    "description": "The home office area offers a quiet workspace surrounded by natural textures. A solid teak desk and leather chair sit before custom open shelving displaying books and Balinese decorative carvings under warm lighting.",
+    "tags": [
+      "Study Room",
+      "Teak Desk",
+      "Leather Chair",
+      "Bookcases",
+      "Home Office"
+    ],
+    "materials": [
+      "Solid Teak",
+      "Cognac Leather",
+      "Woven Jute Rug"
+    ],
+    "lighting": [
+      "Adjustable Desk Lamp",
+      "Recessed Cove Lights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-16/photo-8.jpeg",
+    "altText": "Modern bathroom displaying light grey terrazzo tiles, teak floating shelves, and a round mirror with a woven rope frame.",
+    "description": "This master bathroom integrates modern cleanliness and organic textures. Speckled grey terrazzo wall tiles form a clean backdrop for floating teak storage shelves and a circular mirror framed in hand-woven rope.",
+    "tags": [
+      "Bathroom",
+      "Terrazzo Tiles",
+      "Floating Shelves",
+      "Rope Mirror",
+      "Modern Bath"
+    ],
+    "materials": [
+      "Speckled Terrazzo",
+      "Teak Wood",
+      "Woven Rope"
+    ],
+    "lighting": [
+      "Recessed Waterproof LED Downlights",
+      "Backlit Mirror Glow"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-17/photo-1.jpg",
+    "altText": "Double-height entrance foyer with a sleek black console table, large abstract canvas art, and polished granite floors with brass strips.",
+    "description": "The grand foyer creates a dramatic entrance with its soaring double-height ceiling and polished granite flooring with decorative brass inlay. A minimalist black console and a large abstract painting add modern artistic details.",
+    "tags": [
+      "Entrance Foyer",
+      "Double-Height Ceiling",
+      "Console Table",
+      "Abstract Art",
+      "Polished Granite"
+    ],
+    "materials": [
+      "Polished Granite",
+      "Brushed Brass",
+      "Black Lacquered Wood"
+    ],
+    "lighting": [
+      "Sculptural Pendant Light",
+      "Recessed High-Ceiling Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-17/photo-2.jpg",
+    "altText": "Contemporary living room with a grey fabric sectional sofa, a tan leather lounge armchair, and a bookmatched marble TV wall.",
+    "description": "This main living area exemplifies contemporary luxury, utilizing a clean grey sectional sofa and a classic tan leather armchair. A massive wall clad in bookmatched white and grey marble forms the main architectural focus.",
+    "tags": [
+      "Living Room",
+      "Sectional Sofa",
+      "Leather Armchair",
+      "Marble TV Wall",
+      "Contemporary Home"
+    ],
+    "materials": [
+      "Bookmatched Marble",
+      "Grey Woven Fabric",
+      "Tan Leather"
+    ],
+    "lighting": [
+      "Recessed Spotlight Tracks",
+      "Warm Under-Cabinet LEDs"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-17/photo-3.jpg",
+    "altText": "Formal dining area featuring a long white quartz table, grey fabric chairs, and a linear minimalist black chandelier.",
+    "description": "The dining space is designed for elegant entertaining, centering on a sleek, long quartz dining table. Modern grey fabric chairs and a linear black chandelier above create a clean, contemporary silhouette.",
+    "tags": [
+      "Dining Room",
+      "Quartz Dining Table",
+      "Grey Chairs",
+      "Linear Chandelier",
+      "Formal Dining"
+    ],
+    "materials": [
+      "White Quartz",
+      "Polished Steel",
+      "Grey Linen upholstery"
+    ],
+    "lighting": [
+      "Linear Minimalist Chandelier",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-17/photo-4.jpg",
+    "altText": "Cozy family lounge with a dark blue sectional sofa, warm oak wood wall paneling, and integrated bookshelves.",
+    "description": "A comfortable secondary lounge space designed for family gatherings. A deep blue sectional sofa is set against warm oak wood wall panels with custom built-in bookshelves, offering a cozy and relaxing atmosphere.",
+    "tags": [
+      "Family Lounge",
+      "Blue Sectional",
+      "Oak Wall Paneling",
+      "Built-In Bookshelves",
+      "Cosy Seating"
+    ],
+    "materials": [
+      "Oak Wood Veneer",
+      "Blue Velvet",
+      "Plush Grey Carpet"
+    ],
+    "lighting": [
+      "Warm Recessed Cove LEDs",
+      "Spotlight Fixtures"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-17/photo-5.jpg",
+    "altText": "Master bedroom suite with a king bed featuring a charcoal leather headboard, a textured concrete accent wall, and walk-in wardrobe.",
+    "description": "The master bedroom showcases industrial contemporary style, contrasting a soft charcoal leather headboard against a raw concrete-textured wall. The layout flows into a semi-open custom walk-in closet.",
+    "tags": [
+      "Master Bedroom",
+      "Leather Headboard",
+      "Concrete Wall",
+      "Walk-In Closet",
+      "Industrial Contemporary"
+    ],
+    "materials": [
+      "Textured Concrete Plaster",
+      "Charcoal Leather",
+      "Dark Oak Flooring"
+    ],
+    "lighting": [
+      "Bedside Pendant Lights",
+      "Recessed Wardrobe LEDs"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-17/photo-6.jpg",
+    "altText": "Dedicated home theatre room featuring soundproof acoustic wall panels, plush leather recliners, and fiber-optic starry ceiling.",
+    "description": "This private home cinema is engineered for premium acoustics and comfort. Flanked by textured acoustic fabric panels and equipped with deep leather reclining chairs, the room is crowned by a custom fiber-optic 'starry sky' ceiling installation.",
+    "tags": [
+      "Home Theatre",
+      "Acoustic Panels",
+      "Leather Recliners",
+      "Starry Ceiling",
+      "Home Cinema"
+    ],
+    "materials": [
+      "Acoustic Fabric",
+      "Black Leather",
+      "High-Pile Carpet"
+    ],
+    "lighting": [
+      "Fiber-Optic Ceiling Lights",
+      "Dimmable Blue Floor LEDs"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-17/photo-7.jpg",
+    "altText": "Luxury master bathroom with white statuario marble walls, a double floating wash vanity, and glass-enclosed shower.",
+    "description": "A bright, spa-like master bathroom finished completely in white statuario marble. A floating wooden double vanity, chrome fixtures, and a seamless glass shower screen maintain a clean, luxurious aesthetic.",
+    "tags": [
+      "Master Bathroom",
+      "Statuario Marble",
+      "Double Vanity",
+      "Glass Shower",
+      "Spa Luxury"
+    ],
+    "materials": [
+      "Statuario Italian Marble",
+      "Chrome Fittings",
+      "Solid Oak Wood"
+    ],
+    "lighting": [
+      "Recessed Waterproof Downlights",
+      "Backlit Mirror LED Strips"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-18/photo-1.jpg",
+    "altText": "Grand double-height living room featuring massive abstract canvas art, custom designer furniture, and architectural light sculptures.",
+    "description": "This celebrity-scale double-height living area represents dramatic modern luxury. Soaring walls display massive abstract art canvases, while custom-designed furniture and sculptural pendant lights create a high-fashion architectural gallery.",
+    "tags": [
+      "Grand Living Room",
+      "Double-Height Volume",
+      "Custom Furniture",
+      "Abstract Art",
+      "Sculptural Lighting"
+    ],
+    "materials": [
+      "Polished White Marble",
+      "Polished Brass",
+      "Custom Velvet upholstery"
+    ],
+    "lighting": [
+      "Sculptural Glass Pendant",
+      "Integrated Cove Lighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-18/photo-2.jpg",
+    "altText": "Sophisticated bar and dining area showcasing a backlit white onyx bar counter, luxury bar stools, and views of a private pool.",
+    "description": "The entertainment zone centers around a glowing backlit onyx bar counter paired with sleek designer bar stools. The dining and bar area features floor-to-ceiling glass windows that open directly onto a private outdoor pool deck.",
+    "tags": [
+      "Bar Area",
+      "Onyx Counter",
+      "Dining Zone",
+      "Pool Views",
+      "Entertainment Space"
+    ],
+    "materials": [
+      "Backlit Onyx",
+      "Brushed Champagne Gold",
+      "Floor-to-Ceiling Glass"
+    ],
+    "lighting": [
+      "Backlit Onyx Glow",
+      "Modern Tube Pendants"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-18/photo-3.jpg",
+    "altText": "Ultra-luxurious bedroom suite featuring a king bed with silk wall upholstery, a designer vanity, and automated window tracks.",
+    "description": "This opulent master suite features walls padded in premium cream silk upholstery, framing a grand custom bed. A dedicated designer vanity desk and automated curtains add convenience and high-end hotel luxury.",
+    "tags": [
+      "Bedroom Suite",
+      "Silk Upholstery",
+      "Designer Vanity",
+      "Celebrity Bedroom",
+      "Luxury Seating"
+    ],
+    "materials": [
+      "Cream Silk Fabric",
+      "Walnut wood veneers",
+      "Polished brass details"
+    ],
+    "lighting": [
+      "Designer Pendant Lamps",
+      "Warm Accent Uplighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-19/photo-2.png",
+    "altText": "Villa living room with a high-pitched wooden ceiling, exposed teak columns, and comfortable linen-covered couches opening to a courtyard.",
+    "description": "This Yeoor villa living space captures classic Balinese pavilion architecture. High-pitched timber ceilings and massive teak pillars frame a relaxed seating lounge, while wide sliding glass doors open directly to a tranquil central courtyard.",
+    "tags": [
+      "Villa Living Room",
+      "Teak Columns",
+      "High Ceiling",
+      "Courtyard Views",
+      "Balinese Pavilion"
+    ],
+    "materials": [
+      "Solid Teak Columns",
+      "Timber Ceiling Planks",
+      "Linen Sofa Fabric"
+    ],
+    "lighting": [
+      "Wicker Pendant Lights",
+      "Recessed Up-lights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-19/photo-3.png",
+    "altText": "Open-plan dining area and kitchen with custom warm timber cabinets, solid wood dining table, and hanging wicker lamps.",
+    "description": "The villa's open kitchen and dining area showcase seamless rustic detailing. Custom teak wood cabinets and a raw-edge dining table are highlighted by hanging wicker basket lamps, creating a warm, organic gathering space.",
+    "tags": [
+      "Dining Kitchen",
+      "Timber Cabinets",
+      "Rustic Dining Table",
+      "Wicker Basket Lamps",
+      "Open-Plan Villa"
+    ],
+    "materials": [
+      "Raw-edge Teak",
+      "Timber Laminate",
+      "Wicker Fibers",
+      "Kota Stone Floor"
+    ],
+    "lighting": [
+      "Wicker Basket Pendants",
+      "Warm Recessed LED downlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-19/photo-4.png",
+    "altText": "Master bedroom suite featuring a solid wood canopy poster bed, a textured stone accent wall, and wooden floor boards.",
+    "description": "A rustic, resort-like master suite highlighting a solid timber four-poster canopy bed. A rough-cut natural stone feature wall and wide-plank wood flooring emphasize the villa's earthy Balinese aesthetic.",
+    "tags": [
+      "Master Suite",
+      "Canopy Bed",
+      "Stone Feature Wall",
+      "Wooden Floor",
+      "Rustic Resort Bedroom"
+    ],
+    "materials": [
+      "Natural Stone Cladding",
+      "Teak Wood Bed",
+      "Dark Wood Planks"
+    ],
+    "lighting": [
+      "Bedside Warm Spotlights",
+      "Concealed Cove Lighting"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-20/photo-3.jpg",
+    "altText": "Neoclassical living room displaying white wall panels with classical moldings, crystal chandeliers, and velvet armchairs with gold trims.",
+    "description": "This elegant neoclassical salon showcases refined white wall moldings and highly polished marble flooring with black borders. Sparkling crystal chandeliers and custom velvet armchairs with golden accents evoke timeless European luxury.",
+    "tags": [
+      "Living Room",
+      "Neoclassical Style",
+      "Wall Moldings",
+      "Crystal Chandelier",
+      "Marble Inlay Floor"
+    ],
+    "materials": [
+      "White Marble with Black Borders",
+      "Crystal",
+      "Gilded Gold Trim",
+      "Velvet Fabric"
+    ],
+    "lighting": [
+      "Crystal Chandeliers",
+      "Wall Sconces",
+      "Recessed Downlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-20/photo-4.jpg",
+    "altText": "Elegant dining room with a carved mahogany dining set, a large gold-leaf gilded wall mirror, and classical wall sconces.",
+    "description": "The formal dining space features neoclassical symmetry, centering on a rich carved mahogany dining table and matching chairs. A large gilded mirror sits above the buffet counter, reflecting the light of ornate brass sconces.",
+    "tags": [
+      "Dining Room",
+      "Mahogany Dining Table",
+      "Gilded Mirror",
+      "Wall Sconces",
+      "Classical Symmetrical"
+    ],
+    "materials": [
+      "Mahogany Wood",
+      "Gilded Gold Leaf",
+      "Polished Marble Floor"
+    ],
+    "lighting": [
+      "Classic Brass Sconces",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-20/photo-5.png",
+    "altText": "Master bedroom with a high tufted headboard, neoclassical wall moldings, and warm ambient cove lighting.",
+    "description": "The master bedroom suite showcases luxury, pairing a high tufted velvet headboard in champagne tones with crisp neoclassical wall paneling. Hidden LED cove lighting casts a soft, warm wash across the ceiling.",
+    "tags": [
+      "Master Bedroom",
+      "Tufted Headboard",
+      "Wall Moldings",
+      "Champagne Velvet",
+      "Neoclassical Bedroom"
+    ],
+    "materials": [
+      "Champagne Velvet",
+      "White Lacquered Wood",
+      "Plush Wool Carpet"
+    ],
+    "lighting": [
+      "Warm LED Cove Lights",
+      "Bedside Glass Lamps"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-20/photo-6.jpg",
+    "altText": "Neoclassical guest bedroom featuring soft pastel pink and grey details, custom wall panels, and white shaker wardrobe doors.",
+    "description": "This delicate guest room combines neoclassical detailing with a modern pastel color palette. Custom wall moldings frame the bed, while white shaker-style wardrobe doors provide clean, architectural storage.",
+    "tags": [
+      "Guest Bedroom",
+      "Pastel Accents",
+      "Wall Panels",
+      "Shaker Wardrobe",
+      "Neoclassical Home"
+    ],
+    "materials": [
+      "Soft Cotton Textiles",
+      "Painted MDF Panels",
+      "Laminate Wardrobes"
+    ],
+    "lighting": [
+      "Bedside Pendant Lights",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-20/photo-7.jpg",
+    "altText": "Kitchen showcasing classic white shaker-style cabinets, a white marble backsplash, and solid brass drawer hardware.",
+    "description": "The kitchen is designed in a timeless shaker style, featuring white paneled cabinets and solid brass hardware. A bookmatched white marble backsplash adds a layer of modern luxury to the highly functional culinary space.",
+    "tags": [
+      "Kitchen Design",
+      "Shaker Cabinets",
+      "Marble Backsplash",
+      "Brass Hardware",
+      "Neoclassical Kitchen"
+    ],
+    "materials": [
+      "White Painted Wood",
+      "Carrara Marble",
+      "Solid Brass"
+    ],
+    "lighting": [
+      "Under-Cabinet LED Strips",
+      "Recessed Downlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-20/photo-8.jpg",
+    "altText": "Study room featuring dark walnut wood bookcases, a leather writing desk chair, and warm library-style lighting.",
+    "description": "Designed as a classic home library, the study features custom floor-to-ceiling bookcases in a rich dark walnut finish. A comfortable leather armchair and dedicated task lighting create a focused environment for reading and work.",
+    "tags": [
+      "Study Room",
+      "Walnut Bookcases",
+      "Leather Chair",
+      "Home Library",
+      "Classic Office"
+    ],
+    "materials": [
+      "Walnut Wood Veneer",
+      "Chesterfield Leather",
+      "Woven Wool Rug"
+    ],
+    "lighting": [
+      "Library Picture Lights",
+      "Warm Recessed Ceiling Spotlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-20/photo-9.png",
+    "altText": "Elegant bedroom showing a beige fabric headboard, matching silk curtains, and neoclassical nightstands with gold accents.",
+    "description": "A sophisticated guest suite featuring matching beige silk drapery and custom nightstands. Neoclassical wall moldings and subtle gold trims coordinate to deliver a cohesive, premium guest experience.",
+    "tags": [
+      "Bedroom Design",
+      "Beige Silk Curtains",
+      "Neoclassical Nightstands",
+      "Gold Accents",
+      "Luxury Guest Room"
+    ],
+    "materials": [
+      "Beige Silk",
+      "Lacquered Wood",
+      "Polished Brass Trim"
+    ],
+    "lighting": [
+      "Warm Bedside Lamps",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-20/photo-10.jpg",
+    "altText": "Outdoor balcony lounge with comfortable weather-proof seating, a white marble balustrade, and ocean views.",
+    "description": "This private balcony lounge overlooks the ocean, featuring classic neoclassical marble balustrades. High-end weather-resistant armchairs offer a comfortable spot to enjoy the panoramic views.",
+    "tags": [
+      "Balcony Lounge",
+      "Marble Balustrade",
+      "Ocean Views",
+      "Outdoor Furniture",
+      "Luxury Terrace"
+    ],
+    "materials": [
+      "White Marble",
+      "Synthetic Wicker",
+      "Weatherproof Acrylic Fabric"
+    ],
+    "lighting": [
+      "Wall-Mounted Classic Sconces",
+      "Natural Sunlight"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-20/photo-11.jpg",
+    "altText": "Powder room with a classic gilded vanity mirror, marble inlay floor pattern, and decorative glass wall sconces.",
+    "description": "The powder room showcases detailed neoclassical luxury, highlighting a polished marble inlay floor. An ornate gilded wood mirror vanity and decorative glass sconces create a sparkling, high-contrast vanity space.",
+    "tags": [
+      "Powder Room",
+      "Gilded Mirror",
+      "Marble Inlay Floor",
+      "Glass Sconces",
+      "Neoclassical Vanity"
+    ],
+    "materials": [
+      "Gilded Wood",
+      "Polished Marble Inlays",
+      "Glass and Brass Sconces"
+    ],
+    "lighting": [
+      "Decorative Glass Sconces",
+      "Overhead Recessed Downlight"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-21/photo-1.jpg",
+    "altText": "Modern living room displaying a minimalist low TV console, Italian marble floor, and comfortable beige sectional sofa.",
+    "description": "This contemporary living area is designed for spacious minimalism, featuring polished Italian marble flooring. A low-profile wooden TV console and a deep beige sectional sofa create a clean, modern family room.",
+    "tags": [
+      "Living Room",
+      "Minimalist TV Console",
+      "Italian Marble",
+      "Sectional Sofa",
+      "Modern Home"
+    ],
+    "materials": [
+      "Italian Marble",
+      "Oak Veneer",
+      "Beige Woven Fabric"
+    ],
+    "lighting": [
+      "Linear Ceiling Light Track",
+      "Warm Recessed Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-21/photo-2.jpg",
+    "altText": "Dining space featuring a sleek rectangular glass table, modern grey dining chairs, and large wall mirror panels.",
+    "description": "The dining room utilizes mirrors to expand the visual space, pairing large floor-to-ceiling mirror panels with a minimalist glass dining table. Modern grey upholstered chairs complete the clean, contemporary dining zone.",
+    "tags": [
+      "Dining Space",
+      "Glass Table",
+      "Grey Chairs",
+      "Mirror Panels",
+      "Modern Dining"
+    ],
+    "materials": [
+      "Tempered Glass",
+      "Polished Chrome",
+      "Grey Fabric upholstery",
+      "Mirror Glass"
+    ],
+    "lighting": [
+      "Modern Ring Pendant Light",
+      "Recessed Downlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-21/photo-3.png",
+    "altText": "Master bedroom featuring a grey and white color palette, a custom platform bed, and sliding dark glass wardrobe doors.",
+    "description": "The master bedroom showcases clean lines and a modern monochrome palette. A low custom bed is set against a fabric accent wall, flanked by a wardrobe featuring large dark glass sliding doors.",
+    "tags": [
+      "Master Bedroom",
+      "Monochrome Palette",
+      "Platform Bed",
+      "Glass Wardrobe",
+      "Modern Bedroom"
+    ],
+    "materials": [
+      "Dark Smoked Glass",
+      "Lacquered Wood panels",
+      "Woven Grey Headboard"
+    ],
+    "lighting": [
+      "Bedside Pendant Lights",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": true
+  },
+  {
+    "url": "/projects/project-21/photo-4.png",
+    "altText": "Modular kitchen with matte grey and white acrylic cabinets, light quartz countertops, and stainless steel hardware.",
+    "description": "This highly efficient modern kitchen features a high-contrast layout of matte grey and white acrylic panels. White quartz countertops and integrated stainless steel handle profiles maintain a sleek, clean workspace.",
+    "tags": [
+      "Modular Kitchen",
+      "Acrylic Cabinets",
+      "Quartz Countertops",
+      "Sleek Kitchen",
+      "Modern Commercial Cabinets"
+    ],
+    "materials": [
+      "Matte Acrylic",
+      "Engineered Quartz",
+      "Stainless Steel"
+    ],
+    "lighting": [
+      "LED Under-Cabinet Lighting",
+      "Recessed Spotlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-21/photo-5.png",
+    "altText": "Vibrant children's bedroom featuring a modern wooden bunk bed with integrated storage drawers and a custom study desk.",
+    "description": "This children's room is optimized for learning and play, showcasing custom light oak joinery. A modern bunk bed features integrated steps and drawers, paired with a matching study desk under colorful shelves.",
+    "tags": [
+      "Kids Bedroom",
+      "Bunk Bed",
+      "Custom Joinery",
+      "Study Desk",
+      "Integrated Storage"
+    ],
+    "materials": [
+      "Light Oak Laminate",
+      "White Lacquered Wood",
+      "Colorful Laminate shelves"
+    ],
+    "lighting": [
+      "Task Study Spotlights",
+      "Recessed Downlights"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-21/photo-6.png",
+    "altText": "Cozy balcony featuring artificial green turf flooring, a small round table with two chairs, and privacy planters.",
+    "description": "This high-rise apartment balcony is designed as a relaxing outdoor lounge. Artificial turf flooring is paired with a minimalist bistro dining set, while tall privacy planters create a green, secluded escape.",
+    "tags": [
+      "Balcony Lounge",
+      "Artificial Turf",
+      "Bistro Dining Set",
+      "Privacy Planters",
+      "Apartment Balcony"
+    ],
+    "materials": [
+      "Synthetic Turf",
+      "Powder-Coated Metal Bistro Set",
+      "Fibre Planters"
+    ],
+    "lighting": [
+      "Wall-Mounted Outdoor Sconce",
+      "Natural Light"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-21/photo-7.png",
+    "altText": "Modern bathroom displaying dark grey stone wall tiles, a floating vanity cabinet, and clean chrome bathroom fittings.",
+    "description": "This master bathroom features modern slate-grey tiles and clean chrome hardware. A floating wood vanity with a ceramic wash basin maximizes floor space, creating a clean, architectural powder room.",
+    "tags": [
+      "Bathroom",
+      "Grey Tiles",
+      "Floating Vanity",
+      "Chrome Fittings",
+      "Modern Powder Room"
+    ],
+    "materials": [
+      "Ceramic Tiles",
+      "Lacquered Vanity Wood",
+      "Chrome Finish Hardware"
+    ],
+    "lighting": [
+      "Waterproof LED Spotlights",
+      "Backlit Vanity Mirror"
+    ],
+    "isHeroCandidate": false
+  },
+  {
+    "url": "/projects/project-21/photo-8.png",
+    "altText": "Cozy lounge corner featuring a modern high-back accent armchair and a minimalist metal book rack.",
+    "description": "A quiet reading nook carved out of the bedroom corner. A modern high-back armchair in a warm charcoal weave is paired with a sleek black metal bookshelf, offering a cozy private retreat.",
+    "tags": [
+      "Lounge Corner",
+      "Accent Armchair",
+      "Metal Bookshelf",
+      "Reading Nook",
+      "Minimalist Seating"
+    ],
+    "materials": [
+      "Charcoal Woven Fabric",
+      "Powder-Coated Black Steel"
+    ],
+    "lighting": [
+      "Acoustic Ceiling Light",
+      "Natural Daylighting"
+    ],
+    "isHeroCandidate": false
+  }
+]
