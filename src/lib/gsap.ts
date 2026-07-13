@@ -64,9 +64,24 @@ export function useGsapReveal<T extends HTMLElement = HTMLDivElement>(
         return;
       }
 
+      // Anything already on screen when the script runs is left alone.
+      //
+      // `gsap.from` starts these at opacity 0, which is invisible ink until GSAP
+      // has loaded and hydrated. For content below the fold that costs nothing —
+      // the reader has not reached it. For content in the first viewport it is
+      // the difference between painting with the document and painting after the
+      // JavaScript does: it made a headline the page's largest contentful paint
+      // at nearly six seconds on a throttled phone. Those elements are already
+      // visible in the server-rendered HTML; the reveal simply skips them.
+      const offscreen = targets.filter((el) => {
+        const { top } = el.getBoundingClientRect();
+        return top >= window.innerHeight;
+      });
+      if (offscreen.length === 0) return;
+
       // Group elements by their parent so siblings stagger together.
       const groups = new Map<HTMLElement | null, HTMLElement[]>();
-      targets.forEach((el) => {
+      offscreen.forEach((el) => {
         const parent = el.parentElement;
         const group = groups.get(parent);
         if (group) group.push(el);

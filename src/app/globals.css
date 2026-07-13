@@ -11,7 +11,11 @@
   --ink-strong: #1E293B;
   --ink-deep: #0F172A;
   --muted: #334155;
-  --stone: #94A3B8;
+  /* Quiet secondary text (eyebrows, meta lines, the footer's fine print). Every
+     use sits on one of the cream papers; at the old #94A3B8 that was 2.05:1,
+     well under the 4.5:1 small-text floor. This is the lightest tone that clears
+     it (4.74:1 on --paper-3) — still clearly a step back from --muted. */
+  --stone: #576578;
   --signal: #C00000;
   --signal-deep: #9A0000;
   --hairline: rgba(28, 28, 28, 0.12);
@@ -87,4 +91,39 @@ h3, h4, h5, h6 {
   font-size: 0.75rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
+}
+
+/* The hero's entrance, in CSS rather than JavaScript.
+ *
+ * These lines used to be Framer Motion elements starting at opacity 0, which
+ * meant the headline — the page's largest contentful paint — stayed invisible
+ * until React had hydrated and the motion library had run. On a throttled phone
+ * that was a five-second blank hero. As CSS, the markup paints with the
+ * document and animates on the compositor, so first paint no longer waits for
+ * any script. */
+/* Movement only — deliberately no opacity fade.
+ *
+ * Chrome disqualifies any element that is transparent when first painted from
+ * being a Largest Contentful Paint candidate, and never reconsiders it. Fading
+ * the hero headline in therefore hid the page's biggest element from the metric
+ * entirely, handing LCP to whatever scrap of text painted next. Rising from
+ * below reads the same and keeps the headline eligible, so LCP lands on the
+ * element the reader actually looks at, at the moment it actually appears. */
+@keyframes u-rise {
+  from {
+    transform: translate3d(0, 28px, 0);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.u-rise {
+  animation: u-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .u-rise {
+    animation: none;
+  }
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { initials, type TeamMember } from "@/data/team";
 
@@ -34,10 +35,15 @@ export default function TeamPortrait({
   }
 
   return (
-    <img
-      src={member.photo}
-      alt={member.name}
-      className={cn("w-full h-full object-cover object-top", className)}
-    />
+    // `fill` needs a positioned ancestor, and the callers only guarantee a size.
+    <div className={cn("relative w-full h-full", className)}>
+      <Image
+        src={member.photo}
+        alt={member.name}
+        fill
+        sizes="(max-width: 768px) 50vw, 320px"
+        className="object-cover object-top"
+      />
+    </div>
   );
 }

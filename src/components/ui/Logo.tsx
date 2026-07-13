@@ -15,6 +15,10 @@ export default function Logo({ className, variant = "dark" }: LogoProps) {
 
   return (
     <span
+      // aria-label is only permitted on an element with a role that supports a
+      // name; on a bare span it is ignored (and flagged). The mark plus wordmark
+      // read as one image.
+      role="img"
       aria-label="Axiom Design Studio"
       className={cn(
         "inline-flex items-center gap-2.5 leading-none select-none",

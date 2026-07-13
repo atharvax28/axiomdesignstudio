@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { TextAnimate } from "@/components/ui/text-animate";
 
@@ -19,12 +20,17 @@ export default function FullBleedBand() {
       ref={containerRef}
       className="relative h-[78vh] min-h-[520px] overflow-hidden bg-ink-deep"
     >
-      {/* Parallax materiality image */}
+      {/* Parallax materiality image. This was a hot-linked Unsplash stock photo:
+          a third-party request on the critical path, and stock imagery under a
+          line about the studio's own material palette. It is now the studio's
+          own work. */}
       <motion.div style={{ y }} className="absolute inset-0 z-0">
-        <img
-          src="https://images.unsplash.com/photo-1558211583-d26f610c1eb1?q=80&w=2000&auto=format&fit=crop"
+        <Image
+          src="/projects/project-14/photo-1.png"
           alt="Materiality"
-          className="w-full h-[130%] object-cover object-center opacity-45"
+          fill
+          sizes="100vw"
+          className="object-cover object-center opacity-45 scale-y-[1.3] origin-top"
         />
       </motion.div>
 

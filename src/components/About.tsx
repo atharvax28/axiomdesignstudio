@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -51,10 +52,12 @@ export default function About() {
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
             className="aspect-[4/5] rounded-md overflow-hidden relative"
           >
-            <img
-              src="/hero/main-9x16_backup.jpg"
+            <Image
+              src="/hero/main-9x16-1170.jpg"
               alt="Studio Detail"
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000 ease-out"
+              fill
+              sizes="(max-width: 768px) 100vw, 45vw"
+              className="object-cover hover:scale-105 transition-transform duration-1000 ease-out"
             />
           </motion.div>
 

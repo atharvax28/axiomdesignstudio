@@ -36,7 +36,9 @@ export default function Home() {
           </div>
           <Link
             href="/projects"
-            className="inline-flex items-center gap-2 font-[family-name:var(--font-ui)] font-medium text-[13px] leading-none tracking-[0.14em] uppercase text-ink hover:text-signal transition-colors rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-signal"
+            /* py-2 is not decoration: at leading-none this link was a 17px-tall
+               tap target, under the 24px minimum. */
+            className="inline-flex items-center gap-2 py-2 font-[family-name:var(--font-ui)] font-medium text-[13px] leading-none tracking-[0.14em] uppercase text-ink hover:text-signal transition-colors rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-signal"
           >
             View all projects <span aria-hidden="true">→</span>
           </Link>

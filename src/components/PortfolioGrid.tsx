@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { projects } from "@/data/projects";
 import { useGsapReveal } from "@/lib/gsap";
@@ -53,7 +54,7 @@ export default function PortfolioGrid({ limit, showFilters = true }: PortfolioGr
         ref={gridRef}
         className="grid grid-cols-1 md:grid-cols-2 gap-y-12 gap-x-7 w-full"
       >
-        {filteredProjects.map((project) => {
+        {filteredProjects.map((project, index) => {
           // `image` is the card's chosen preview; it usually mirrors photos[0] but
           // can be pointed at any shot without disturbing the case-study gallery,
           // whose hero reads photos[0].
@@ -73,10 +74,17 @@ export default function PortfolioGrid({ limit, showFilters = true }: PortfolioGr
               >
                 <div className="w-full aspect-[4/3] rounded-md overflow-hidden relative bg-paper">
                   {previewImage ? (
-                    <img
+                    <Image
                       src={previewImage}
                       alt={altText}
-                      className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                      fill
+                      /* One column below the md breakpoint, two above, inside a
+                         1360px shell — so a card never needs more than ~660px. */
+                      sizes="(max-width: 768px) 100vw, (max-width: 1360px) 50vw, 660px"
+                      /* The first four cards are at or near the fold on a desktop
+                         viewport; the rest can wait until they scroll in. */
+                      loading={index < 4 ? "eager" : "lazy"}
+                      className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
                     />
                   ) : (
                     <div className="w-full h-full bg-paper-3 flex items-center justify-center text-stone text-sm">

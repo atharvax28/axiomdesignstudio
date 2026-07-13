@@ -2,6 +2,7 @@
 
 import React, { useRef, useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ScrollVelocityRow } from "@/components/ui/scroll-based-velocity";
 import { Marquee } from "@/components/ui/marquee";
@@ -14,7 +15,20 @@ import TeamPortrait from "@/components/team/TeamPortrait";
 import { yearsInPractice } from "@/data/studio";
 import { team, type TeamMember } from "@/data/team";
 import { cn } from "@/lib/utils";
-import { Maximize, Minimize } from "lucide-react";
+import {
+  Maximize,
+  Minimize,
+  Volume2,
+  VolumeX,
+  ArrowRight,
+  DraftingCompass,
+  Factory,
+  BookOpen,
+  Gauge,
+  Handshake,
+  BadgeCheck,
+  type LucideIcon,
+} from "lucide-react";
 
 // ─── DATA ──────────────────────────────────────────────────────────────────────
 
@@ -46,49 +60,41 @@ const reviews = [
     name: "Mahindra Meridian",
     username: "@alibaug",
     body: "Axiom Design Studio captured our vision perfectly. The attention to detail is stunning.",
-    img: "https://avatar.vercel.sh/mahindra",
   },
   {
     name: "Vihang Club House",
     username: "@thane",
     body: "The execution team was incredibly professional. Handover was flawless.",
-    img: "https://avatar.vercel.sh/vihang",
   },
   {
     name: "IDFC Bank",
     username: "@airoli",
     body: "They delivered the corporate space exactly on schedule without a single compromise.",
-    img: "https://avatar.vercel.sh/idfc",
   },
   {
     name: "Axis Asset Mgmt",
     username: "@pune",
     body: "Our new office space has transformed the way we work. Exceptional craftsmanship.",
-    img: "https://avatar.vercel.sh/axis",
   },
   {
     name: "Jio Credit Ltd.",
     username: "@bangalore",
     body: "Axiom's in-house team is phenomenal. Everything fits together perfectly.",
-    img: "https://avatar.vercel.sh/jio",
   },
   {
     name: "Kohar By Kanika",
     username: "@retail",
     body: "Our boutique has never looked better. The aesthetic is incredibly premium.",
-    img: "https://avatar.vercel.sh/kohar",
   },
   {
     name: "Mrs. Nitasha Gaurav",
     username: "@karjat",
     body: "Our residential project was handled with immense care and precision.",
-    img: "https://avatar.vercel.sh/nitasha",
   },
   {
     name: "Mr. Vishal Kampani",
     username: "@prabhadevi",
     body: "A truly luxurious finish. We recommend Axiom to anyone looking for perfection.",
-    img: "https://avatar.vercel.sh/vishal",
   },
 ];
 
@@ -100,10 +106,12 @@ const secondRow = reviews.slice(reviews.length / 2);
 function GalleryCard({ src, label }: { src: string; label: string }) {
   return (
     <div className="relative w-[320px] h-[220px] mx-3 rounded-md overflow-hidden flex-shrink-0 group">
-      <img
+      <Image
         src={src}
         alt={label}
-        className="w-full h-full object-cover transition-transform duration-700 md:group-hover:scale-105"
+        fill
+        sizes="320px"
+        className="object-cover transition-transform duration-700 md:group-hover:scale-105"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink-deep/90 via-ink-deep/20 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-400" />
       <span className="absolute bottom-3 left-4 text-paper text-xs tracking-widest uppercase opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-400 font-[family-name:var(--font-ui)]">
@@ -114,11 +122,11 @@ function GalleryCard({ src, label }: { src: string; label: string }) {
 }
 
 function ValueCard({
-  icon,
+  icon: Icon,
   title,
   body,
 }: {
-  icon: string;
+  icon: LucideIcon;
   title: string;
   body: string;
 }) {
@@ -130,12 +138,7 @@ function ValueCard({
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="flex flex-col gap-4 p-8 border border-hairline rounded-md bg-paper-2 hover:-translate-y-1 transition-transform duration-300"
     >
-      <span
-        className="material-symbols-outlined text-[30px] text-signal"
-        style={{ fontVariationSettings: "'FILL' 1" }}
-      >
-        {icon}
-      </span>
+      <Icon size={30} strokeWidth={1.5} className="text-signal" aria-hidden="true" />
       <h3 className="font-[family-name:var(--font-ui)] text-base tracking-wide uppercase text-ink-deep">
         {title}
       </h3>
@@ -166,13 +169,23 @@ function TeamCard({ member }: { member: TeamMember }) {
   );
 }
 
+/** Client initials, drawn in the brand's own type. Replaces the generated
+ *  stand-in avatars these cards used to pull from avatar.vercel.sh — a
+ *  third-party request on every load, for artwork that read as placeholder. */
+const initialsOf = (name: string) =>
+  name
+    .replace(/^(Mr\.|Mrs\.|Ms\.)\s+/i, "")
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((word) => word[0])
+    .join("")
+    .toUpperCase();
+
 const ReviewCard = ({
-  img,
   name,
   username,
   body,
 }: {
-  img: string;
   name: string;
   username: string;
   body: string;
@@ -185,7 +198,12 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        <span
+          aria-hidden="true"
+          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-signal/10 text-signal font-[family-name:var(--font-ui)] text-[11px] font-semibold tracking-[0.06em]"
+        >
+          {initialsOf(name)}
+        </span>
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium text-ink-deep font-[family-name:var(--font-ui)]">
             {name}
@@ -203,7 +221,11 @@ const ReviewCard = ({
 export default function AboutPage() {
   const heroRef = useRef(null);
   const videoContainerRef = useRef<HTMLDivElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  // Autoplay is only permitted while muted, so that is where every visitor
+  // starts; the control below lets them opt into the soundtrack.
+  const [isMuted, setIsMuted] = useState(true);
 
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
@@ -213,6 +235,16 @@ export default function AboutPage() {
     } else {
       document.exitFullscreen();
     }
+  };
+
+  const toggleMuted = () => {
+    const video = videoRef.current;
+    if (!video) return;
+    const next = !video.muted;
+    video.muted = next;
+    // Unmuting a video that autoplayed muted needs an explicit nudge in Safari.
+    if (!next) void video.play().catch(() => {});
+    setIsMuted(next);
   };
 
   useEffect(() => {
@@ -232,11 +264,6 @@ export default function AboutPage() {
 
   return (
     <div className="relative w-full min-h-screen bg-paper text-ink font-[family-name:var(--font-body)]">
-      {/* Link to Google Material Symbols */}
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-      />
 
       <Navbar />
 
@@ -245,29 +272,54 @@ export default function AboutPage() {
         ref={heroRef}
         className="relative w-full h-screen overflow-hidden bg-paper"
       >
-        <motion.div ref={videoContainerRef} style={{ y: heroY }} className="absolute inset-0 group">
+        <motion.div ref={videoContainerRef} style={{ y: heroY }} className="absolute inset-0 group bg-ink-deep">
           <video
+            ref={videoRef}
             autoPlay
             loop
             muted
             playsInline
-            src="/hero/mahindra_optimized.mp4"
-            className="w-full h-full object-cover"
+            // The poster paints on the first frame, so the section is never an
+            // empty box while 18MB of video streams in behind it.
+            poster="/hero/mahindra-poster.jpg"
+            preload="metadata"
+            src="/hero/mahindra.mp4"
+            className={cn(
+              "w-full h-full",
+              // Cover crops the frame to fill the hero; in fullscreen the point
+              // is to watch the film, so show all of it.
+              isFullscreen ? "object-contain" : "object-cover"
+            )}
           />
-          {/* Legibility scrim: darkest toward the bottom, where the headline
-              sits, so the light type clears contrast over the photo. */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-black/20 pointer-events-none" />
-          {/* Page melt: the bottom edge dissolves into the cream page below. */}
-          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-paper pointer-events-none" />
 
-          {/* Fullscreen Button */}
-          <button
-            onClick={toggleFullscreen}
-            className="absolute top-24 right-6 md:top-32 md:right-10 z-50 p-3 bg-black/20 hover:bg-black/40 backdrop-blur-md rounded-full text-white transition-all opacity-0 group-hover:opacity-100 focus-visible:opacity-100"
-            aria-label={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
-          >
-            {isFullscreen ? <Minimize size={20} /> : <Maximize size={20} />}
-          </button>
+          {/* Legibility scrims. Both exist to hold the headline over the footage
+              and melt the section into the page — neither has any purpose once
+              the video is fullscreen, where they only dim the film. */}
+          {!isFullscreen && (
+            <>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-black/20 pointer-events-none" />
+              <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-paper pointer-events-none" />
+            </>
+          )}
+
+          {/* Playback controls. Kept visible on touch, where there is no hover. */}
+          <div className="absolute top-24 right-6 md:top-32 md:right-10 z-50 flex items-center gap-3 opacity-100 md:opacity-0 md:group-hover:opacity-100 md:focus-within:opacity-100 transition-opacity duration-300">
+            <button
+              onClick={toggleMuted}
+              className="p-3 bg-black/20 hover:bg-black/40 backdrop-blur-md rounded-full text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal"
+              aria-label={isMuted ? "Unmute video" : "Mute video"}
+              aria-pressed={!isMuted}
+            >
+              {isMuted ? <VolumeX size={20} /> : <Volume2 size={20} />}
+            </button>
+            <button
+              onClick={toggleFullscreen}
+              className="p-3 bg-black/20 hover:bg-black/40 backdrop-blur-md rounded-full text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal"
+              aria-label={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
+            >
+              {isFullscreen ? <Minimize size={20} /> : <Maximize size={20} />}
+            </button>
+          </div>
         </motion.div>
 
         <motion.div
@@ -346,8 +398,11 @@ export default function AboutPage() {
           <span className="font-[family-name:var(--font-heading)] font-light text-[50px] md:text-[clamp(3rem,6vw,5rem)] leading-none tracking-tight text-ink-deep">
             We
           </span>
+          {/* signal-deep rather than signal: the words crossfade through partial
+              opacity, and the lighter red dropped to 2.6:1 against the cream at
+              the midpoint of every transition. */}
           <MorphingText
-            className="font-[family-name:var(--font-heading)] font-medium text-[60px] md:text-[clamp(4rem,8vw,6.5rem)] leading-none tracking-tight text-signal !w-full !h-[80px] md:!h-[130px] my-1"
+            className="font-[family-name:var(--font-heading)] font-medium text-[60px] md:text-[clamp(4rem,8vw,6.5rem)] leading-none tracking-tight text-signal-deep !w-full !h-[80px] md:!h-[130px] my-1"
             texts={morphWords}
           />
           <span className="font-[family-name:var(--font-heading)] font-light text-[50px] md:text-[clamp(3rem,6vw,5rem)] leading-none tracking-tight text-ink-deep">
@@ -390,32 +445,32 @@ export default function AboutPage() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <ValueCard
-            icon="architecture"
+            icon={DraftingCompass}
             title="Design Integrity"
             body="The design intent is sacred. From concept to completion, every decision is made in service of the original vision — not budget shortcuts or supply-chain convenience."
           />
           <ValueCard
-            icon="precision_manufacturing"
+            icon={Factory}
             title="In-House Execution"
             body="We design and build. Our in-house execution team means zero translation loss between the design drawing and the finished surface."
           />
           <ValueCard
-            icon="menu_book"
+            icon={BookOpen}
             title="Technical Depth"
             body="Deep expertise in materials, construction systems, and finishing — accumulated over hundreds of projects across every typology."
           />
           <ValueCard
-            icon="speed"
+            icon={Gauge}
             title="Delivery Discipline"
             body="Streamlined project management and a coordinated workforce ensure deadlines are honoured and handovers are clean."
           />
           <ValueCard
-            icon="handshake"
+            icon={Handshake}
             title="Client Trust"
             body="Our business is almost entirely referral-based. That trust is our most valued asset, and we protect it on every project."
           />
           <ValueCard
-            icon="verified"
+            icon={BadgeCheck}
             title="No Compromise"
             body="We don't cut corners. We don't substitute materials. We don't approximate. The standard is the standard."
           />
@@ -488,12 +543,7 @@ export default function AboutPage() {
             className="inline-flex items-center gap-3 px-8 py-4 border border-signal text-signal font-[family-name:var(--font-ui)] text-sm tracking-widest uppercase rounded hover:bg-signal hover:text-paper transition-all duration-300"
           >
             Get in Touch
-            <span
-              className="material-symbols-outlined text-[18px]"
-              style={{ fontVariationSettings: "'FILL' 0" }}
-            >
-              arrow_forward
-            </span>
+            <ArrowRight size={18} strokeWidth={1.75} aria-hidden="true" />
           </Link>
         </div>
       </section>

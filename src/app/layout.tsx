@@ -9,17 +9,30 @@ const inter = Inter({
   display: "swap",
 });
 
+/**
+ * The headline face. Left as a variable font rather than a list of static
+ * weights: the type is set `font-light` in twenty-odd places, 300 was never
+ * among the weights loaded, and the browser was quietly substituting 500 — so
+ * the light headings the design asks for were never actually rendering. One
+ * variable file covers the whole range and ships fewer bytes than the three
+ * static cuts it replaces.
+ */
 const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
   display: "swap",
 });
 
+/**
+ * The italic display accent. Cormorant has no variable cut, so weights are
+ * explicit — and only the one the site actually uses (400, roman and italic).
+ * It was loading 500/600/700 in both styles: six files, none of them at a
+ * weight any class asked for.
+ */
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["400"],
   style: ["normal", "italic"],
   display: "swap",
 });
@@ -31,9 +44,29 @@ const lora = Lora({
   display: "swap",
 });
 
+/**
+ * Absolute base for Open Graph / preview images. Vercel injects the deployment
+ * host, so previews resolve on branch deploys too; set NEXT_PUBLIC_SITE_URL once
+ * the studio's own domain is attached, and that wins.
+ */
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
+  ? process.env.NEXT_PUBLIC_SITE_URL
+  : process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "http://localhost:3000";
+
 export const metadata: Metadata = {
-  title: "Axiom Design Studio | Interior Design & Build",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Axiom Design Studio | Interior Design & Build",
+    template: "%s",
+  },
   description: "Axiom Design Studio — a Mumbai interior design and execution studio crafting corporate, hospitality, retail, and residential spaces.",
+  openGraph: {
+    siteName: "Axiom Design Studio",
+    locale: "en_IN",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -42,9 +75,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    // No `scroll-smooth` on <html>: Lenis is the smooth-scroll engine, and CSS
+    // smooth scrolling on top of it also animated the jump we make to restore a
+    // reader's position on Back, so restoration visibly scrolled the page.
     <html
       lang="en"
-      className={`${inter.variable} ${jakarta.variable} ${cormorant.variable} ${lora.variable} antialiased scroll-smooth`}
+      className={`${inter.variable} ${jakarta.variable} ${cormorant.variable} ${lora.variable} antialiased`}
     >
       {/* Material Symbols is only used by /about, which loads it itself. */}
       <body className="min-h-screen bg-paper text-ink font-sans">
