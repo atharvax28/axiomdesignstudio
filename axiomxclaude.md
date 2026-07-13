@@ -100,6 +100,20 @@ contrast and the Navbar `aria-label`.
 
 ---
 
+## Open — deferred by the client, to do later
+
+1. **Footer contrast.** `--stone` (`#94A3B8`) is 2.05:1 on the cream footer — the
+   copyright line is genuinely hard to read, not merely an audit complaint. The
+   agreed compromise, not yet applied: darken **only** the footer copyright line
+   and leave `--stone` untouched everywhere else, so the eyebrows and meta text
+   keep exactly their current colour and contrast still passes. (Doing this, plus
+   the Navbar `aria-label`, is what stands between 96 and 100 on accessibility.)
+
+2. **Confirm Vercel is connected to the repo.** Not yet checked. If
+   `axiomdesignstudio` is not linked as a Vercel project, the pushes are sitting
+   on GitHub and nothing has actually deployed — import it at vercel.com/new. The
+   `vercel.json` in the repo already declares the framework and build commands.
+
 ## Notes for next time
 
 - **Kill stray `next start` servers before measuring.** A stale server holding
