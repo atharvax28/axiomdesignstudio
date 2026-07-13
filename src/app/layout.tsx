@@ -75,12 +75,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // No `scroll-smooth` on <html>: Lenis is the smooth-scroll engine, and CSS
-    // smooth scrolling on top of it also animated the jump we make to restore a
-    // reader's position on Back, so restoration visibly scrolled the page.
     <html
       lang="en"
-      className={`${inter.variable} ${jakarta.variable} ${cormorant.variable} ${lora.variable} antialiased`}
+      className={`${inter.variable} ${jakarta.variable} ${cormorant.variable} ${lora.variable} antialiased scroll-smooth`}
     >
       {/* Material Symbols is only used by /about, which loads it itself. */}
       <body className="min-h-screen bg-paper text-ink font-sans">

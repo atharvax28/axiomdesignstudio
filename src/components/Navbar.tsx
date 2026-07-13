@@ -82,13 +82,10 @@ export default function Navbar({ transparentAtTop = true }: NavbarProps) {
         )}
       >
         <div className="max-w-[1360px] mx-auto px-5 md:px-14 h-[84px] flex items-center justify-between">
-          {/* No aria-label here: it overrode the logo's own name with a string
-              that did not contain the visible wordmark, which leaves anyone
-              using voice control unable to say what they can see. The Logo names
-              itself, and that name matches the mark. */}
           <Link
             href="/"
             onClick={() => setIsMenuOpen(false)}
+            aria-label="Axiom Design Studio — home"
             className="relative z-50 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-signal"
           >
             <Logo variant={solid ? "dark" : "light"} />

@@ -89,29 +89,33 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 w-full max-w-[1360px] mx-auto px-5 md:px-14 pb-[72px]">
-        <div
-          style={{ animationDelay: "0.15s" }}
-          className="u-rise u-eyebrow font-[family-name:var(--font-ui)] text-paper/80 mb-7 drop-shadow-[0_1px_8px_rgba(15,23,42,0.5)]"
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+          className="u-eyebrow font-[family-name:var(--font-ui)] text-paper/80 mb-7 drop-shadow-[0_1px_8px_rgba(15,23,42,0.5)]"
         >
           Interior Design &amp; Build — Mumbai
-        </div>
+        </motion.div>
 
-        {/* The LCP element. Plain markup, CSS entrance — it must not wait for
-            hydration to become visible. */}
-        <h1
-          style={{ animationDelay: "0.3s" }}
-          className="u-rise font-[family-name:var(--font-heading)] font-light text-[clamp(52px,9.5vw,150px)] leading-[1.08] tracking-[0.01em] text-paper drop-shadow-[0_2px_16px_rgba(15,23,42,0.55)]"
+        <motion.h1
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
+          className="font-[family-name:var(--font-heading)] font-light text-[clamp(52px,9.5vw,150px)] leading-[1.08] tracking-[0.01em] text-paper drop-shadow-[0_2px_16px_rgba(15,23,42,0.55)]"
         >
           Space{" "}
           <span className="font-[family-name:var(--font-display)] italic font-normal text-signal">
             that
           </span>{" "}
           speaks.
-        </h1>
+        </motion.h1>
 
-        <div
-          style={{ animationDelay: "0.45s" }}
-          className="u-rise flex justify-between items-end gap-6 mt-10 flex-wrap border-t border-white/20 pt-6"
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
+          className="flex justify-between items-end gap-6 mt-10 flex-wrap border-t border-white/20 pt-6"
         >
           <p className="max-w-[46ch] text-[15px] leading-relaxed text-paper/85 drop-shadow-[0_1px_8px_rgba(15,23,42,0.5)]">
             A Mumbai studio that designs and builds premium residential and
@@ -123,7 +127,7 @@ export default function Hero() {
           >
             Work With Us
           </Link>
-        </div>
+        </motion.div>
       </div>
 
       <motion.div

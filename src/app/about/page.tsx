@@ -59,41 +59,49 @@ const reviews = [
   {
     name: "Mahindra Meridian",
     username: "@alibaug",
+    img: "https://avatar.vercel.sh/mahindra",
     body: "Axiom Design Studio captured our vision perfectly. The attention to detail is stunning.",
   },
   {
     name: "Vihang Club House",
     username: "@thane",
+    img: "https://avatar.vercel.sh/vihang",
     body: "The execution team was incredibly professional. Handover was flawless.",
   },
   {
     name: "IDFC Bank",
     username: "@airoli",
+    img: "https://avatar.vercel.sh/idfc",
     body: "They delivered the corporate space exactly on schedule without a single compromise.",
   },
   {
     name: "Axis Asset Mgmt",
     username: "@pune",
+    img: "https://avatar.vercel.sh/axis",
     body: "Our new office space has transformed the way we work. Exceptional craftsmanship.",
   },
   {
     name: "Jio Credit Ltd.",
     username: "@bangalore",
+    img: "https://avatar.vercel.sh/jio",
     body: "Axiom's in-house team is phenomenal. Everything fits together perfectly.",
   },
   {
     name: "Kohar By Kanika",
     username: "@retail",
+    img: "https://avatar.vercel.sh/kohar",
     body: "Our boutique has never looked better. The aesthetic is incredibly premium.",
   },
   {
     name: "Mrs. Nitasha Gaurav",
     username: "@karjat",
+    img: "https://avatar.vercel.sh/nitasha",
     body: "Our residential project was handled with immense care and precision.",
   },
   {
     name: "Mr. Vishal Kampani",
     username: "@prabhadevi",
+    img: "https://avatar.vercel.sh/vishal",
     body: "A truly luxurious finish. We recommend Axiom to anyone looking for perfection.",
   },
 ];
@@ -169,23 +177,13 @@ function TeamCard({ member }: { member: TeamMember }) {
   );
 }
 
-/** Client initials, drawn in the brand's own type. Replaces the generated
- *  stand-in avatars these cards used to pull from avatar.vercel.sh — a
- *  third-party request on every load, for artwork that read as placeholder. */
-const initialsOf = (name: string) =>
-  name
-    .replace(/^(Mr\.|Mrs\.|Ms\.)\s+/i, "")
-    .split(/\s+/)
-    .slice(0, 2)
-    .map((word) => word[0])
-    .join("")
-    .toUpperCase();
-
 const ReviewCard = ({
+  img,
   name,
   username,
   body,
 }: {
+  img: string;
   name: string;
   username: string;
   body: string;
@@ -198,12 +196,8 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <span
-          aria-hidden="true"
-          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-signal/10 text-signal font-[family-name:var(--font-ui)] text-[11px] font-semibold tracking-[0.06em]"
-        >
-          {initialsOf(name)}
-        </span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img className="rounded-full" width="32" height="32" alt="" src={img} />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium text-ink-deep font-[family-name:var(--font-ui)]">
             {name}
@@ -398,11 +392,8 @@ export default function AboutPage() {
           <span className="font-[family-name:var(--font-heading)] font-light text-[50px] md:text-[clamp(3rem,6vw,5rem)] leading-none tracking-tight text-ink-deep">
             We
           </span>
-          {/* signal-deep rather than signal: the words crossfade through partial
-              opacity, and the lighter red dropped to 2.6:1 against the cream at
-              the midpoint of every transition. */}
           <MorphingText
-            className="font-[family-name:var(--font-heading)] font-medium text-[60px] md:text-[clamp(4rem,8vw,6.5rem)] leading-none tracking-tight text-signal-deep !w-full !h-[80px] md:!h-[130px] my-1"
+            className="font-[family-name:var(--font-heading)] font-medium text-[60px] md:text-[clamp(4rem,8vw,6.5rem)] leading-none tracking-tight text-signal !w-full !h-[80px] md:!h-[130px] my-1"
             texts={morphWords}
           />
           <span className="font-[family-name:var(--font-heading)] font-light text-[50px] md:text-[clamp(3rem,6vw,5rem)] leading-none tracking-tight text-ink-deep">
