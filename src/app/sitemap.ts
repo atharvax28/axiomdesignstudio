@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import { projects } from '@/data/projects';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://axiomdesignstudio.in'; // Assuming this is the domain based on context, update if needed.
 
