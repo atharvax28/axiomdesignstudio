@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>India Map — Axiom Design Studio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    :root {
+      --bg: #09090b;
+      --card-bg: #0c0c0f;
+      --border: #1e1e24;
+      --muted: #71717a;
+      --foreground: #fafafa;
+      --map-fill: #1a1a2e;
+      --map-stroke: #2a2a3e;
+      --map-hover: #3b82f6;
+      --accent: #a78bfa;
+      --accent-glow: rgba(167, 139, 250, 0.4);
+      --line-color: rgba(167, 139, 250, 0.25);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--foreground);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1.5rem;
+    }
+
+    /* Ambient glow behind map */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(167,139,250,0.06) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    header {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.35rem;
+    }
+
+    p.subtitle {
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-weight: 400;
+    }
+
+    .map-card {
+      position: relative;
+      z-index: 1;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      width: 100%;
+      max-width: 800px;
+      box-shadow: 0 0 80px rgba(167,139,250,0.03);
+      overflow: hidden;
+    }
+
+    /* SVG Map Styling */
+    .map-card svg#mapSvg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .map-card svg#mapSvg path {
+      fill: var(--map-fill) !important;
+      stroke: var(--map-stroke) !important;
+      stroke-width: 0.6 !important;
+      cursor: pointer;
+      transition: fill 0.3s ease, stroke 0.3s ease, filter 0.3s ease;
+    }
+
+    .map-card svg#mapSvg path:hover {
+      fill: rgba(59, 130, 246, 0.35) !important;
+      stroke: rgba(59, 130, 246, 0.6) !important;
+      filter: drop-shadow(0 0 8px rgba(59,130,246,0.3));
+    }
+
+    /* Tooltip */
+    #tooltip {
+      position: fixed;
+      pointer-events: none;
+      background: var(--foreground);
+      color: var(--bg);
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      opacity: 0;
+      transition: opacity 0.15s ease;
+      z-index: 50;
+      white-space: nowrap;
+    }
+    #tooltip.visible { opacity: 1; }
+
+    /* ===== City Markers ===== */
+    .city-marker {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 10;
+      opacity: 0;
+      animation: fadeInMarker 0.6s ease forwards;
+    }
+
+    .city-core {
+      width: 7px;
+      height: 7px;
+      background: var(--accent);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--accent-glow), 0 0 30px var(--accent-glow);
+      position: relative;
+      z-index: 2;
+    }
+
+    .city-ring {
+      position: absolute;
+      top: 50%; left: 50%;
+      width: 7px; height: 7px;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      background: var(--accent);
+      opacity: 0.5;
+      z-index: 1;
+      animation: ping 2.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .city-label {
+      position: absolute;
+      top: -22px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.55rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      text-shadow: 0 0 12px var(--accent-glow);
+      opacity: 0;
+      animation: fadeInLabel 0.5s ease forwards;
+    }
+
+    @keyframes fadeInMarker {
+      from { opacity: 0; transform: translate(-50%, -50%) scale(0); }
+      to   { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+    }
+
+    @keyframes fadeInLabel {
+      from { opacity: 0; transform: translateX(-50%) translateY(4px); }
+      to   { opacity: 0.9; transform: translateX(-50%) translateY(0); }
+    }
+
+    @keyframes ping {
+      75%, 100% { transform: translate(-50%, -50%) scale(5); opacity: 0; }
+    }
+
+    /* ===== Connection Lines ===== */
+    #connections {
+      position: absolute;
+      top: 28px; left: 28px; right: 28px; bottom: 28px;
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    .connection-line {
+      stroke: var(--line-color);
+      stroke-width: 1;
+      fill: none;
+      stroke-dasharray: 600;
+      stroke-dashoffset: 600;
+      animation: drawLine 2s ease forwards;
+    }
+
+    @keyframes drawLine {
+      to { stroke-dashoffset: 0; }
+    }
+
+    /* Moving dot along path */
+    .travel-dot {
+      fill: var(--accent);
+      filter: drop-shadow(0 0 4px var(--accent-glow));
+    }
+
+    /* City list at bottom */
+    .city-list {
+      position: relative;
+      z-index: 1;
+      margin-top: 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem 1rem;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .city-chip {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      font-size: 0.7rem;
+      color: var(--muted);
+      font-weight: 500;
+      opacity: 0;
+      animation: chipIn 0.4s ease forwards;
+    }
+
+    .city-chip .chip-dot {
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 6px var(--accent-glow);
+    }
+
+    @keyframes chipIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>India Operations</h1>
+    <p class="subtitle">Key cities powering our network</p>
+  </header>
+
+  <div class="map-card" id="mapContainer">
+    <svg id="connections" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet"></svg>
+  </div>
+
+  <div class="city-list" id="cityList"></div>
+  <div id="tooltip"></div>
+
+<script>
+  // City data — approximate positions in SVG viewBox (0-1000)
+  const cities = [
+    { name: "Delhi",      x: 350, y: 310 },
+    { name: "Ghaziabad",  x: 365, y: 305 },
+    { name: "Jaipur",     x: 295, y: 375 },
+    { name: "Mumbai",     x: 215, y: 600 },
+    { name: "Pune",       x: 250, y: 640 },
+    { name: "Kolhapur",   x: 250, y: 700 },
+    { name: "Sangli",     x: 270, y: 690 },
+    { name: "Hyderabad",  x: 355, y: 655 },
+    { name: "Bangalore",  x: 325, y: 780 },
+  ];
+
+  async function init() {
+    try {
+      // Use relative path to support VS Code Live Server and direct file access
+      const resp = await fetch('refernce%20india.txt');
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const svgText = await resp.text();
+
+      const container = document.getElementById('mapContainer');
+      const connSvg = document.getElementById('connections');
+
+      // Parse SVG
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(svgText, 'image/svg+xml');
+      const svg = doc.documentElement;
+
+      svg.setAttribute('id', 'mapSvg');
+      svg.removeAttribute('width');
+      svg.removeAttribute('height');
+      svg.removeAttribute('fill');
+      svg.removeAttribute('stroke');
+      svg.removeAttribute('stroke-width');
+      svg.removeAttribute('stroke-linecap');
+      svg.removeAttribute('stroke-linejoin');
+      svg.style.width = '100%';
+      svg.style.height = 'auto';
+
+      // Remove <a> wrappers
+      svg.querySelectorAll('a').forEach(a => {
+        while (a.firstChild) a.parentNode.insertBefore(a.firstChild, a);
+        a.remove();
+      });
+      // Remove <title> elements
+      svg.querySelectorAll('title').forEach(t => t.remove());
+
+      // Insert SVG before the connections overlay
+      container.insertBefore(svg, connSvg);
+
+      // Tooltip interactions
+      const tooltip = document.getElementById('tooltip');
+      svg.querySelectorAll('path').forEach(path => {
+        path.addEventListener('mouseenter', () => {
+          tooltip.textContent = path.getAttribute('name') || path.getAttribute('id') || '';
+          tooltip.classList.add('visible');
+        });
+        path.addEventListener('mousemove', e => {
+          tooltip.style.left = (e.clientX + 12) + 'px';
+          tooltip.style.top = (e.clientY - 28) + 'px';
+        });
+        path.addEventListener('mouseleave', () => tooltip.classList.remove('visible'));
+      });
+
+      // Render cities & connections with stagger
+      renderCities(container, connSvg);
+
+    } catch (err) {
+      console.error('Map load error:', err);
+      document.getElementById('mapContainer').innerHTML =
+        '<p style="text-align:center;color:#f66;padding:40px;">Failed to load map. Ensure <code>refernce india.txt</code> is available.</p>';
+    }
+  }
+
+  function renderCities(container, connSvg) {
+    const cityList = document.getElementById('cityList');
+
+    cities.forEach((city, i) => {
+      const delay = i * 350;
+
+      // -- Marker dot --
+      const marker = document.createElement('div');
+      marker.className = 'city-marker';
+      marker.style.left = `${(city.x / 1000) * 100}%`;
+      marker.style.top  = `${(city.y / 1000) * 100}%`;
+      marker.style.animationDelay = `${delay}ms`;
+      marker.innerHTML = `
+        <div class="city-ring" style="animation-delay:${delay}ms"></div>
+        <div class="city-core"></div>
+        <div class="city-label" style="animation-delay:${delay + 200}ms">${city.name}</div>
+      `;
+      container.appendChild(marker);
+
+      // -- City chip --
+      const chip = document.createElement('div');
+      chip.className = 'city-chip';
+      chip.style.animationDelay = `${delay + 300}ms`;
+      chip.innerHTML = `<span class="chip-dot"></span>${city.name}`;
+      cityList.appendChild(chip);
+    });
+
+    // -- Connection lines between cities --
+    for (let i = 0; i < cities.length - 1; i++) {
+      const a = cities[i], b = cities[i + 1];
+      const mx = (a.x + b.x) / 2;
+      const my = (a.y + b.y) / 2 - 30;
+
+      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', `M ${a.x} ${a.y} Q ${mx} ${my} ${b.x} ${b.y}`);
+      path.setAttribute('class', 'connection-line');
+      path.style.animationDelay = `${(i + 1) * 350}ms`;
+      connSvg.appendChild(path);
+
+      // Animated traveling dot
+      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      circle.setAttribute('r', '3');
+      circle.setAttribute('class', 'travel-dot');
+      circle.style.opacity = '0';
+      connSvg.appendChild(circle);
+
+      const anim = document.createElementNS('http://www.w3.org/2000/svg', 'animateMotion');
+      anim.setAttribute('dur', '2s');
+      anim.setAttribute('begin', `${(i + 1) * 0.35 + 0.5}s`);
+      anim.setAttribute('fill', 'freeze');
+      anim.setAttribute('repeatCount', '1');
+      const mpath = document.createElementNS('http://www.w3.org/2000/svg', 'mpath');
+      // Create a hidden path for motion
+      const motionPath = path.cloneNode();
+      motionPath.setAttribute('id', `motionPath${i}`);
+      motionPath.style.display = 'none';
+      connSvg.appendChild(motionPath);
+      mpath.setAttributeNS('http://www.w3.org/1999/xlink', 'href', `#motionPath${i}`);
+      anim.appendChild(mpath);
+      circle.appendChild(anim);
+
+      // Show dot when animation starts
+      setTimeout(() => { circle.style.opacity = '1'; }, (i + 1) * 350 + 500);
+    }
+  }
+
+  init();
+</script>
+</body>
+</html>

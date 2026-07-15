@@ -1,0 +1,26 @@
+node_modules
+.next
+.git
+
+# Root-level large files (not in public/ or src/)
+/ChatGPT Image*.png
+/M (333).JPG
+/newheromain.jpeg
+/JIO BLACKROCK LAYOUT PRESENTATION BY AXIOM DESIGN STUDIO - 18.05.26.pptx
+/source_code_tree.pdf
+
+# Non-essential directories at root
+/Jio Financial
+/MF- Hyderabad-Shortlisted
+/the collective
+/edit
+/docs
+
+# Non-essential root files
+/media_mapping.json
+/projects.json
+/source_code_tree.md
+/project_tree.md
+/IMPLEMENTATION.md
+/swap.js
+/netlify.toml
