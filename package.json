@@ -28,9 +28,5 @@
     "eslint-config-next": "16.2.10",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "optionalDependencies": {
-    "@tailwindcss/oxide-wasm32-wasi": "4.3.2",
-    "@unrs/resolver-binding-wasm32-wasi": "1.12.2"
   }
 }
