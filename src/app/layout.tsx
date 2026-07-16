@@ -148,8 +148,22 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        {/* Material Symbols icon font — timeline nodes and CTA arrows on /about.
+            Loaded via <link> rather than a CSS @import: under Tailwind v4 +
+            Turbopack the external @import in globals.css is dropped, so the
+            @font-face never registers and the icons fall back to their ligature
+            text. The .material-symbols-outlined class lives in globals.css. */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block"
+        />
       </head>
-      {/* Material Symbols is only used by /about, which loads it itself. */}
       <body className="min-h-screen bg-paper text-ink font-sans">
         <SmoothScroll>{children}</SmoothScroll>
       </body>
