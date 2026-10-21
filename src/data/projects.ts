@@ -45,25 +45,6 @@ export const projects: Project[] = [
     ]
   },
   {
-    "id": 20,
-    "title": "Mr. Vishal Kampani (Prabhadevi)",
-    "location": "Prabhadevi",
-    "category": "Residential",
-    "year": "2016",
-    "size": "4,200 SQ.FT",
-    "image": "/projects/project-20/photo-1.webp",
-    "style": "Neo Classical Interior",
-    "photos": [
-      "/projects/project-20/photo-1.webp",
-      "/projects/project-20/photo-2.webp",
-      "/projects/project-20/photo-3.jpg",
-      "/projects/project-20/photo-4.webp",
-      "/projects/project-20/photo-5.jpg",
-      "/projects/project-20/photo-6.jpg",
-      "/projects/project-20/photo-7.jpg"
-    ]
-  },
-  {
     "id": 3,
     "title": "Mahindra Finance (Jaipur)",
     "location": "Jaipur",

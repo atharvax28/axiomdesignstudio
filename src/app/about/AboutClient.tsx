@@ -27,7 +27,6 @@ const galleryImages = [
   { src: "/projects/project-14/photo-1.webp",  label: "Madanlal Chhaganlal Jewellers (Indore)" },
   { src: "/projects/project-18/photo-1.JPG",  label: "Mrs. Nitasha Gaurav (Karjat)" },
   { src: "/projects/project-5/photo-3.jpg",   label: "Mahindra Finance (Hyderabad)" },
-  { src: "/projects/project-20/photo-1.webp",  label: "Mr. Vishal Kampani (Prabhadevi)" },
   { src: "/projects/project-16/photo-2.jpg",  label: "Mahindra Meridian – Show Flat (Alibaug)" },
   { src: "/projects/project-9/photo-6.jpg",   label: "Vihang Club House (Thane West)" },
   { src: "/projects/project-1/photo-2.jpg",   label: "Mahindra Finance (Hyderabad)" },
@@ -73,12 +72,6 @@ const reviews = [
     username: "@karjat",
     body: "Our residential project was handled with immense care and precision.",
     img: "https://avatar.vercel.sh/nitasha",
-  },
-  {
-    name: "Mr. Vishal Kampani",
-    username: "@prabhadevi",
-    body: "A truly luxurious finish. We recommend Axiom to anyone looking for perfection.",
-    img: "https://avatar.vercel.sh/vishal",
   },
 ];
 
