@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { TextAnimate } from "@/components/ui/text-animate";
 
-const clients = ["MAHINDRA", "JIO", "IDFC", "HDFC", "AXIS", "KIA"];
+const clients = ["MAHINDRA", "JIO", "KIA"];
 
 export default function TrustedBy() {
   return (

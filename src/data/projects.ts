@@ -82,57 +82,6 @@ export const projects: Project[] = [
     ]
   },
   {
-    "id": 6,
-    "title": "HDFC Securities (Kanjurmarg)",
-    "location": "Kanjurmarg",
-    "category": "Corporate",
-    "year": "2024",
-    "size": "25,000 SQ.FT",
-    "image": "/projects/project-6/photo-1.jpeg",
-    "style": "Modern Interior",
-    "photos": [
-      "/projects/project-6/photo-1.jpeg",
-      "/projects/project-6/photo-2.jpeg",
-      "/projects/project-6/photo-4.jpeg",
-      "/projects/project-6/photo-5.jpeg",
-      "/projects/project-6/photo-6.jpeg"
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Axis Asset Management (Pune)",
-    "location": "Pune",
-    "category": "Corporate",
-    "year": "2024",
-    "size": "13,000 SQ.FT",
-    "image": "/projects/project-7/photo-2.jpeg",
-    "style": "Modern Interior",
-    "photos": [
-      "/projects/project-7/photo-2.jpeg",
-      "/projects/project-7/photo-3.jpeg",
-      "/projects/project-7/photo-4.webp",
-      "/projects/project-7/photo-5.jpg"
-    ]
-  },
-  {
-    "id": 8,
-    "title": "IDFC Bank (Airoli)",
-    "location": "Airoli",
-    "category": "Corporate",
-    "year": "2024",
-    "size": "25,000 SQ.FT",
-    "image": "/projects/project-8/photo-1.jpg",
-    "venue": "Mindspace",
-    "style": "Modern Interior",
-    "photos": [
-      "/projects/project-8/photo-1.jpg",
-      "/projects/project-8/photo-3.jpeg",
-      "/projects/project-8/photo-5.webp",
-      "/projects/project-8/photo-6.webp",
-      "/projects/project-8/photo-7.jpeg"
-    ]
-  },
-  {
     "id": 22,
     "title": "Jio BlackRock (Andheri East)",
     "location": "Andheri East",

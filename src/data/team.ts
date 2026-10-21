@@ -49,12 +49,6 @@ export const team: TeamMember[] = [
     photo: "/team/pranil.webp",
     bio: "PRANILL oversees site execution with a hands-on approach. With deep technical knowledge of construction and finishing, he ensures that the design vision is faithfully translated into the built environment.",
   },
-  {
-    name: "Vaibhav Pawar",
-    role: "Studio Director",
-    photo: "/team/vaibhav.webp",
-    bio: "Vaibhav manages the operational backbone of Axiom — coordinating between design intent and site execution, ensuring every project lands on time and within scope without compromising quality.",
-  },
 ];
 
 /** "Aruna Swamy" -> "AS". Used for the monogram when no portrait exists. */

@@ -31,7 +31,6 @@ const galleryImages = [
   { src: "/projects/project-16/photo-2.jpg",  label: "Mahindra Meridian – Show Flat (Alibaug)" },
   { src: "/projects/project-9/photo-6.jpg",   label: "Vihang Club House (Thane West)" },
   { src: "/projects/project-1/photo-2.jpg",   label: "Mahindra Finance (Hyderabad)" },
-  { src: "/projects/project-8/photo-1.jpg",   label: "IDFC Bank (Airoli)" },
   { src: "/projects/project-17/photo-3.jpg",  label: "Mr. Rishikesh Shah (Parel)" },
 ];
 
@@ -56,18 +55,6 @@ const reviews = [
     username: "@thane",
     body: "The execution team was incredibly professional. Handover was flawless.",
     img: "https://avatar.vercel.sh/vihang",
-  },
-  {
-    name: "IDFC Bank",
-    username: "@airoli",
-    body: "They delivered the corporate space exactly on schedule without a single compromise.",
-    img: "https://avatar.vercel.sh/idfc",
-  },
-  {
-    name: "Axis Asset Mgmt",
-    username: "@pune",
-    body: "Our new office space has transformed the way we work. Exceptional craftsmanship.",
-    img: "https://avatar.vercel.sh/axis",
   },
   {
     name: "Jio Credit Ltd.",
