@@ -15,6 +15,7 @@ const Services = dynamic(() => import("@/components/Services"));
 const PortfolioGrid = dynamic(() => import("@/components/PortfolioGrid"));
 const Process = dynamic(() => import("@/components/Process"));
 const FullBleedBand = dynamic(() => import("@/components/FullBleedBand"));
+const TrustedBy = dynamic(() => import("@/components/TrustedBy"));
 const Footer = dynamic(() => import("@/components/Footer"));
 
 export default function Home() {
@@ -54,6 +55,7 @@ export default function Home() {
 
       <Process />
       <FullBleedBand />
+      <TrustedBy />
       <Footer />
     </main>
   );
